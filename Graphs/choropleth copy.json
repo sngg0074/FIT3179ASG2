@@ -45,7 +45,7 @@
       "width": 250,
       "height": 300,
       "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/26c0869f6fde006e9fb790b83d90d3fceb83fc39/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
+        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ad0fb7f2e378d1861c254f7cd1180854f667a159/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
       },
       "mark": "bar",
       "encoding": {
