@@ -1,17 +1,30 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 400,
   "data": {
-    "url": "your_data.csv" 
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/0bc372c070b06f1f7c1f3937a49a17c27ef374d7/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
   },
-  "mark": "arc",
+  "mark": "line",
   "encoding": {
-    "color": {"field": "source", "type": "nominal"},
-    "tooltip": [
-      {"field": "source", "type": "nominal", "title": "Source"},
-      {"field": "target", "type": "nominal", "title": "Target"},
-      {"field": "value", "type": "quantitative", "title": "Value"}
-    ]
+    "y": {
+      "field": "State",
+      "type": "nominal",
+      "axis": {
+        "title": "State"
+      }
+    },
+    "x": {
+      "field": "Total",
+      "type": "quantitative",
+      "axis": {
+        "title": "Total"
+      }
+    },
+    "color": {
+      "field": "Sector",
+      "type": "nominal",
+      "legend": {
+        "title": "Sector"
+      }
+    }
   }
 }
