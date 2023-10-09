@@ -4,7 +4,7 @@
     "width": 600,
     "height": 600,
     "data": {
-      "url": "https://raw.githubusercontent.com/sngg0074/3179/935de5a6d753b344521d61f38c1f68dbfd2ea43c/opt2.csv",
+      "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
       "format": {"type": "csv"}
     },
     "transform": [
@@ -12,7 +12,7 @@
         "lookup": "state",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/sngg0074/3179/935de5a6d753b344521d61f38c1f68dbfd2ea43c/malaysia-states.topojson",
+            "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/malaysia-states.topojson",
             "format": {"type": "topojson", "feature": "states"}
           },
           "key": "properties.Name",
