@@ -1,0 +1,337 @@
+﻿state,year,unemployment_rate
+Johor,2000,2.2
+Johor,2001,3.4
+Johor,2002,2.9
+Johor,2003,3.5
+Johor,2004,3.6
+Johor,2005,3.3
+Johor,2006,2.1
+Johor,2007,2
+Johor,2008,2.2
+Johor,2009,3.2
+Johor,2010,2.4
+Johor,2011,2.5
+Johor,2012,3.1
+Johor,2013,2.8
+Johor,2014,2.6
+Johor,2015,3.1
+Johor,2016,3.6
+Johor,2017,3.4
+Johor,2018,3
+Johor,2019,2.7
+Johor,2020,3.5
+Kedah,2000,2.9
+Kedah,2001,3.6
+Kedah,2002,3.2
+Kedah,2003,3.3
+Kedah,2004,3.8
+Kedah,2005,3.7
+Kedah,2006,3.8
+Kedah,2007,3.3
+Kedah,2008,3.8
+Kedah,2009,4.2
+Kedah,2010,2.8
+Kedah,2011,3.5
+Kedah,2012,2.9
+Kedah,2013,2.4
+Kedah,2014,2.7
+Kedah,2015,2.6
+Kedah,2016,2.9
+Kedah,2017,2.8
+Kedah,2018,2.9
+Kedah,2019,2.8
+Kedah,2020,4.2
+Kelantan,2000,2.6
+Kelantan,2001,3.1
+Kelantan,2002,3.9
+Kelantan,2003,3.2
+Kelantan,2004,4.1
+Kelantan,2005,3.4
+Kelantan,2006,2.4
+Kelantan,2007,2.7
+Kelantan,2008,2.9
+Kelantan,2009,2.4
+Kelantan,2010,2.4
+Kelantan,2011,2
+Kelantan,2012,2.3
+Kelantan,2013,2.8
+Kelantan,2014,3.3
+Kelantan,2015,3.6
+Kelantan,2016,3.8
+Kelantan,2017,3.6
+Kelantan,2018,4
+Kelantan,2019,4
+Kelantan,2020,4.3
+Kuala Lumpur,2000,2.6
+Kuala Lumpur,2001,2.7
+Kuala Lumpur,2002,2.8
+Kuala Lumpur,2003,3.4
+Kuala Lumpur,2004,2.9
+Kuala Lumpur,2005,2.3
+Kuala Lumpur,2006,2.8
+Kuala Lumpur,2007,2.9
+Kuala Lumpur,2008,2.7
+Kuala Lumpur,2009,2.9
+Kuala Lumpur,2010,3.1
+Kuala Lumpur,2011,3
+Kuala Lumpur,2012,2.7
+Kuala Lumpur,2013,3.3
+Kuala Lumpur,2014,2.9
+Kuala Lumpur,2015,3.3
+Kuala Lumpur,2016,3.3
+Kuala Lumpur,2017,3.1
+Kuala Lumpur,2018,2.4
+Kuala Lumpur,2019,2.6
+Kuala Lumpur,2020,4
+Labuan,2000,4.7
+Labuan,2001,5.4
+Labuan,2002,3.2
+Labuan,2003,4.5
+Labuan,2004,5
+Labuan,2005,5.1
+Labuan,2006,9.4
+Labuan,2007,4.5
+Labuan,2008,5.6
+Labuan,2009,5.6
+Labuan,2010,6
+Labuan,2011,4.2
+Labuan,2012,4.6
+Labuan,2013,4.1
+Labuan,2014,5.1
+Labuan,2015,5
+Labuan,2016,7.8
+Labuan,2017,8.5
+Labuan,2018,7.1
+Labuan,2019,6.9
+Labuan,2020,7.2
+Malaysia,2000,3
+Malaysia,2001,3.5
+Malaysia,2002,3.5
+Malaysia,2003,3.6
+Malaysia,2004,3.5
+Malaysia,2005,3.5
+Malaysia,2006,3.3
+Malaysia,2007,3.2
+Malaysia,2008,3.3
+Malaysia,2009,3.7
+Malaysia,2010,3.3
+Malaysia,2011,3.1
+Malaysia,2012,3
+Malaysia,2013,3.1
+Malaysia,2014,2.9
+Malaysia,2015,3.1
+Malaysia,2016,3.4
+Malaysia,2017,3.4
+Malaysia,2018,3.3
+Malaysia,2019,3.3
+Malaysia,2020,4.5
+Melaka,2000,1.3
+Melaka,2001,1.8
+Melaka,2002,2.9
+Melaka,2003,2.8
+Melaka,2004,1.6
+Melaka,2005,1.2
+Melaka,2006,1.3
+Melaka,2007,2.1
+Melaka,2008,1.1
+Melaka,2009,2.4
+Melaka,2010,1
+Melaka,2011,0.7
+Melaka,2012,0.5
+Melaka,2013,0.7
+Melaka,2014,0.9
+Melaka,2015,1
+Melaka,2016,0.9
+Melaka,2017,1
+Melaka,2018,1.1
+Melaka,2019,1.1
+Melaka,2020,2.2
+Negeri Sembilan,2000,3.4
+Negeri Sembilan,2001,3.2
+Negeri Sembilan,2002,3.7
+Negeri Sembilan,2003,3.5
+Negeri Sembilan,2004,3.5
+Negeri Sembilan,2005,3.6
+Negeri Sembilan,2006,4
+Negeri Sembilan,2007,3.6
+Negeri Sembilan,2008,3.1
+Negeri Sembilan,2009,3.9
+Negeri Sembilan,2010,3.1
+Negeri Sembilan,2011,3
+Negeri Sembilan,2012,3
+Negeri Sembilan,2013,3.1
+Negeri Sembilan,2014,3
+Negeri Sembilan,2015,3.1
+Negeri Sembilan,2016,2.7
+Negeri Sembilan,2017,2.8
+Negeri Sembilan,2018,3
+Negeri Sembilan,2019,3.1
+Negeri Sembilan,2020,3.8
+Pahang,2000,2.7
+Pahang,2001,3.1
+Pahang,2002,2.9
+Pahang,2003,3.6
+Pahang,2004,3.3
+Pahang,2005,3.3
+Pahang,2006,2.4
+Pahang,2007,3.2
+Pahang,2008,2.6
+Pahang,2009,3
+Pahang,2010,2.9
+Pahang,2011,2.6
+Pahang,2012,2.7
+Pahang,2013,2.8
+Pahang,2014,2.7
+Pahang,2015,2.9
+Pahang,2016,2.6
+Pahang,2017,2.9
+Pahang,2018,2.6
+Pahang,2019,2.9
+Pahang,2020,3.1
+Penang,2000,1.9
+Penang,2001,2.5
+Penang,2002,2.2
+Penang,2003,1.7
+Penang,2004,1.8
+Penang,2005,2.1
+Penang,2006,1.7
+Penang,2007,2.1
+Penang,2008,2
+Penang,2009,2.5
+Penang,2010,2.2
+Penang,2011,1.9
+Penang,2012,2
+Penang,2013,1.7
+Penang,2014,1.6
+Penang,2015,1.6
+Penang,2016,2.1
+Penang,2017,2.1
+Penang,2018,2.2
+Penang,2019,2
+Penang,2020,3.5
+Perak,2000,3.5
+Perak,2001,4
+Perak,2002,3.9
+Perak,2003,4.8
+Perak,2004,3.3
+Perak,2005,3.3
+Perak,2006,3.5
+Perak,2007,2.9
+Perak,2008,3.8
+Perak,2009,3.5
+Perak,2010,3
+Perak,2011,2.6
+Perak,2012,3
+Perak,2013,3.8
+Perak,2014,3.4
+Perak,2015,3.2
+Perak,2016,3.4
+Perak,2017,3.7
+Perak,2018,3.3
+Perak,2019,3.4
+Perak,2020,4.8
+Perlis,2000,2.9
+Perlis,2001,3.5
+Perlis,2002,3.1
+Perlis,2003,4.4
+Perlis,2004,3.3
+Perlis,2005,2.9
+Perlis,2006,3.2
+Perlis,2007,3
+Perlis,2008,2.9
+Perlis,2009,3.3
+Perlis,2010,3.3
+Perlis,2011,4
+Perlis,2012,3.9
+Perlis,2013,3.7
+Perlis,2014,3.3
+Perlis,2015,2.9
+Perlis,2016,2.9
+Perlis,2017,3.5
+Perlis,2018,3.4
+Perlis,2019,3.3
+Perlis,2020,4.3
+Sabah,2000,5.8
+Sabah,2001,6.6
+Sabah,2002,5.9
+Sabah,2003,5.4
+Sabah,2004,6.5
+Sabah,2005,6.4
+Sabah,2006,5.7
+Sabah,2007,5.5
+Sabah,2008,4.9
+Sabah,2009,5.5
+Sabah,2010,5.5
+Sabah,2011,5.6
+Sabah,2012,5.6
+Sabah,2013,5.3
+Sabah,2014,4.9
+Sabah,2015,5
+Sabah,2016,5.4
+Sabah,2017,5.6
+Sabah,2018,5.8
+Sabah,2019,5.8
+Sabah,2020,8
+Sarawak,2000,4.3
+Sarawak,2001,4.4
+Sarawak,2002,4
+Sarawak,2003,3.9
+Sarawak,2004,3.8
+Sarawak,2005,4.1
+Sarawak,2006,4.1
+Sarawak,2007,4.3
+Sarawak,2008,5.3
+Sarawak,2009,4.6
+Sarawak,2010,4.4
+Sarawak,2011,4.1
+Sarawak,2012,3.5
+Sarawak,2013,3.7
+Sarawak,2014,3.1
+Sarawak,2015,3.5
+Sarawak,2016,3.3
+Sarawak,2017,3
+Sarawak,2018,3.2
+Sarawak,2019,3.1
+Sarawak,2020,4.3
+Selangor,2000,2
+Selangor,2001,2.4
+Selangor,2002,3
+Selangor,2003,3.2
+Selangor,2004,2.7
+Selangor,2005,3.1
+Selangor,2006,3.2
+Selangor,2007,3
+Selangor,2008,3.1
+Selangor,2009,3.6
+Selangor,2010,3.2
+Selangor,2011,2.4
+Selangor,2012,2.3
+Selangor,2013,2.4
+Selangor,2014,2
+Selangor,2015,2.4
+Selangor,2016,3.2
+Selangor,2017,2.8
+Selangor,2018,2.8
+Selangor,2019,2.9
+Selangor,2020,4.3
+Terengganu,2000,3
+Terengganu,2001,2.7
+Terengganu,2002,3.2
+Terengganu,2003,2.9
+Terengganu,2004,3.2
+Terengganu,2005,3.1
+Terengganu,2006,3.6
+Terengganu,2007,2.6
+Terengganu,2008,3.4
+Terengganu,2009,3.8
+Terengganu,2010,3.7
+Terengganu,2011,3.2
+Terengganu,2012,3
+Terengganu,2013,3.4
+Terengganu,2014,4.1
+Terengganu,2015,4
+Terengganu,2016,4.2
+Terengganu,2017,4.5
+Terengganu,2018,4.8
+Terengganu,2019,3.5
+Terengganu,2020,4.1
