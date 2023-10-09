@@ -1,0 +1,52 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Unemployment Rate throughout Malaysia from 2000 to 2020",
+    "width": 600,
+    "height": 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/sngg0074/3179/935de5a6d753b344521d61f38c1f68dbfd2ea43c/opt2.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "lookup": "state",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sngg0074/3179/935de5a6d753b344521d61f38c1f68dbfd2ea43c/malaysia-states.topojson",
+            "format": {"type": "topojson", "feature": "states"}
+          },
+          "key": "properties.Name",
+          "fields": ["properties", "type", "geometry"]
+        }
+      },
+      {"filter": "datum.year==year"}
+    ],
+    "params": [
+      {
+        "name": "year",
+        "value": 2000,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2020,
+          "step": 1,
+          "name": "Select the year:"
+        }
+      }
+    ],
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {"field": "unemployment_rate", "type": "quantitative","scale": {
+          "type": "threshold",
+          "domain": [2, 4, 6, 8],
+          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
+          },
+          "title":"Unemployment Rate (Percentage)"
+    },
+      "tooltip": [
+        {"field": "properties.Name", "type": "nominal", "title": "Country"},
+        {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
+      ]
+    }
+  }
