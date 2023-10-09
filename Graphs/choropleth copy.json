@@ -32,9 +32,9 @@
           "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
           },
           "title":"Unemployment Rate (Percentage)"
-    },
+      },
       "tooltip": [
-        {"field": "properties.Name", "type": "nominal", "title": "Country"},
+        {"field": "properties.Name", "type": "nominal", "title": "State"},
         {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
       ]
     }
@@ -45,13 +45,17 @@
       "width": 250,
       "height": 300,
       "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
+        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/68093b91d54e3431b3233e6b3d0d1b96f449df29/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
       },
       "mark": "bar",
       "encoding": {
         "x": {"field": "State", "type": "nominal"},
         "y": {"field": "Value_RM_Million", "type": "quantitative","scale": {"domain": [0, 150000]}, "title": "GDP (RM) (Million)"},
-        "color": {"field": "State", "type": "nominal"}
+        "color": {"field": "State", "type": "nominal"},
+        "tooltip": [
+          {"field": "State", "type": "nominal", "title": "State"},
+          {"field": "Value_RM_Million", "type": "quantitative", "title":"GDP"}
+        ]
       },
       "transform": [
         {"filter": "datum.Year==year"}
