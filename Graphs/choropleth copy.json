@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "vconcat": [
+    {
+    "title": "Unemployment Rate throughout Malaysia from 2000 to 2020",
+    "width": 250,
+    "height": 250,
+    "data": {
+      "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [
+      {
+        "lookup": "state",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/malaysia-states.topojson",
+            "format": {"type": "topojson", "feature": "states"}
+          },
+          "key": "properties.Name",
+          "fields": ["properties", "type", "geometry"]
+        }
+      },
+      {"filter": "datum.year==year"}
+    ],
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {"field": "unemployment_rate", "type": "quantitative","scale": {
+          "type": "threshold",
+          "domain": [2, 4, 6, 8],
+          "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
+          },
+          "title":"Unemployment Rate (Percentage)"
+    },
+      "tooltip": [
+        {"field": "properties.Name", "type": "nominal", "title": "Country"},
+        {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
+      ]
+    }
+    },
+
+    {
+      "title": "Intentional Homicide Cases in Malaysian States",
+      "width": 250,
+      "height": 250,
+      "data": {
+        "url": "https://raw.githubusercontent.com/sngg0074/HomeworkWK10/main/13.6.12_Number%20of%20intentional%20homicide%20cases%20by%20state%20-%20Malaysia%20-%202014%E2%80%932021_dataset.csv"
+      },
+      "mark": "bar",
+      "encoding": {
+        "x": {"field": "State", "type": "nominal"},
+        "y": {"field": "Number of Cases", "type": "quantitative","scale": {"domain": [0, 200]}},
+        "color": {"field": "Intentional homicide cases", "type": "nominal"}
+      },
+      "transform": [
+        {"filter": "datum.Year==year"},
+        {"calculate": "if(datum['Intentional homicide cases'] === 'Solving case', 'Total cases', 'Solved')", "as": "Intentional Homicide Case Type"}
+      ],
+      "config": {"view": {"stroke": "transparent"}}
+    }
+    
+  ],
+
+  "params": [
+    {
+      "name": "year",
+      "value": 2000,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2020,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ]
+}
