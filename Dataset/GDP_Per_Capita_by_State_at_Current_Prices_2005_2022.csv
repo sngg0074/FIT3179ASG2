@@ -1,401 +1,305 @@
-﻿Year,State,Value_RM_Million,
-2005,Johor,16298,
-2005,Kedah,9811,
-2005,Kelantan,6075,
-2005,Melaka,20410,
-2005,Negeri Sembilan,20768,
-2005,Pahang,16534,
-2005,Pulau Pinang,26833,
-2005,Perak,12320,
-2005,Perlis,12761,
-2005,Selangor,23494,
-2005,Terengganu,15863,
-2005,Sabah,11134,
-2005,Sarawak,25291,
-2005,Kuala Lumpur,42414,
-2005,Labuan,26552,
-2005,GDP Per Capita at Current Prices,20870,
-2006,Johor,16996,
-2006,Kedah,10821,
-2006,Kelantan,6752,
-2006,Melaka,22065,
-2006,Negeri Sembilan,22796,
-2006,Pahang,18108,
-2006,Pulau Pinang,29624,
-2006,Perak,13233,
-2006,Perlis,13555,
-2006,Selangor,24571,
-2006,Terengganu,17692,
-2006,Sabah,12138,
-2006,Sarawak,27782,
-2006,Kuala Lumpur,45519,
-2006,Labuan,31281,
-2006,GDP Per Capita at Current Prices,22478,
-2007,Johor,18753,
-2007,Kedah,12160,
-2007,Kelantan,7662,
-2007,Melaka,23415,
-2007,Negeri Sembilan,24605,
-2007,Pahang,20160,
-2007,Pulau Pinang,31381,
-2007,Perak,14832,
-2007,Perlis,14500,
-2007,Selangor,26359,
-2007,Terengganu,19476,
-2007,Sabah,14104,
-2007,Sarawak,30790,
-2007,Kuala Lumpur,49687,
-2007,Labuan,33687,
-2007,GDP Per Capita at Current Prices,24589,
-2008,Johor,20162,
-2008,Kedah,13023,
-2008,Kelantan,8570,
-2008,Melaka,25885,
-2008,Negeri Sembilan,26950,
-2008,Pahang,22351,
-2008,Pulau Pinang,33694,
-2008,Perak,16552,
-2008,Perlis,15705,
-2008,Selangor,29273,
-2008,Terengganu,20984,
-2008,Sabah,17523,
-2008,Sarawak,37125,
-2008,Kuala Lumpur,56135,
-2008,Labuan,31107,
-2008,GDP Per Capita at Current Prices,27929,
-2009,Johor,18878,
-2009,Kedah,12481,
-2009,Kelantan,8421,
-2009,Melaka,25397,
-2009,Negeri Sembilan,25595,
-2009,Pahang,20548,
-2009,Pulau Pinang,30098,
-2009,Perak,15809,
-2009,Perlis,15186,
-2009,Selangor,28468,
-2009,Terengganu,19102,
-2009,Sabah,15515,
-2009,Sarawak,31286,
-2009,Kuala Lumpur,57040,
-2009,Labuan,31200,
-2009,GDP Per Capita at Current Prices,25385,
-2010,Johor,21329,
-2010,Kedah,13744,
-2010,Kelantan,9322,
-2010,Melaka,28328,
-2010,Negeri Sembilan,28586,
-2010,Pahang,23008,
-2010,Pulau Pinang,33601,
-2010,Perak,17341,
-2010,Perlis,16175,
-2010,Selangor,31457,
-2010,Terengganu,20581,
-2010,Sabah,17118,
-2010,Sarawak,34136,
-2010,Kuala Lumpur,62075,
-2010,Labuan,32387,
-2010,GDP Per Capita at Current Prices,27890,
-2010,Johor,22035,
-2010,Kedah,14034,
-2010,Kelantan,9806,
-2010,Melaka,29366,
-2010,Negeri Sembilan,29363,
-2010,Pahang,23883,
-2010,Pulau Pinang,33597,
-2010,Perak,18207,
-2010,Perlis,17410,
-2010,Selangor,32300,
-2010,Terengganu,21573,
-2010,Sabah,17831,
-2010,Sarawak,35034,
-2010,Kuala Lumpur,64693,
-2010,Labuan,38445,
-2010,GDP Per Capita at Current Prices,28733,
-2011,Johor,23562,
-2011,Kedah,15393,
-2011,Kelantan,10363,
-2011,Melaka,31161,
-2011,Negeri Sembilan,31222,
-2011,Pahang,26057,
-2011,Pulau Pinang,35069,
-2011,Perak,19350,
-2011,Perlis,17032,
-2011,Selangor,33687,
-2011,Terengganu,22145,
-2011,Sabah,18932,
-2011,Sarawak,39566,
-2011,Kuala Lumpur,68125,
-2011,Labuan,37113,
-2011,GDP Per Capita at Current Prices,30464,
-2011,Johor,24350,
-2011,Kedah,15563,
-2011,Kelantan,10894,
-2011,Melaka,32421,
-2011,Negeri Sembilan,32136,
-2011,Pahang,27069,
-2011,Pulau Pinang,35527,
-2011,Perak,20370,
-2011,Perlis,18299,
-2011,Selangor,34478,
-2011,Terengganu,23282,
-2011,Sabah,19648,
-2011,Sarawak,40632,
-2011,Kuala Lumpur,70675,
-2011,Labuan,44044,
-2011,GDP Per Capita at Current Prices,31372,
-2012,Johor,25442,
-2012,Kedah,16088,
-2012,Kelantan,11217,
-2012,Melaka,34965,
-2012,Negeri Sembilan,33761,
-2012,Pahang,27413,
-2012,Pulau Pinang,37053,
-2012,Perak,21711,
-2012,Perlis,19537,
-2012,Selangor,36799,
-2012,Terengganu,23935,
-2012,Sabah,19487,
-2012,Sarawak,41493,
-2012,Kuala Lumpur,77073,
-2012,Labuan,49157,
-2012,GDP Per Capita at Current Prices,32913,
-2012,Johor,24569,
-2012,Kedah,15777,
-2012,Kelantan,10568,
-2012,Melaka,33623,
-2012,Negeri Sembilan,32545,
-2012,Pahang,26274,
-2012,Pulau Pinang,36787,
-2012,Perak,20510,
-2012,Perlis,17990,
-2012,Selangor,35916,
-2012,Terengganu,22717,
-2012,Sabah,18713,
-2012,Sarawak,40396,
-2012,Kuala Lumpur,74579,
-2012,Labuan,40668,
-2012,GDP Per Capita at Current Prices,31920,
-2013,Johor,26308,
-2013,Kedah,16616,
-2013,Kelantan,11284,
-2013,Melaka,35699,
-2013,Negeri Sembilan,34118,
-2013,Pahang,27856,
-2013,Pulau Pinang,38490,
-2013,Perak,22445,
-2013,Perlis,20196,
-2013,Selangor,38071,
-2013,Terengganu,24449,
-2013,Sabah,18680,
-2013,Sarawak,41766,
-2013,Kuala Lumpur,82208,
-2013,Labuan,53576,
-2013,GDP Per Capita at Current Prices,33714,
-2013,Johor,25302,
-2013,Kedah,16316,
-2013,Kelantan,10677,
-2013,Melaka,34109,
-2013,Negeri Sembilan,33033,
-2013,Pahang,26759,
-2013,Pulau Pinang,38356,
-2013,Perak,21150,
-2013,Perlis,18519,
-2013,Selangor,37851,
-2013,Terengganu,23285,
-2013,Sabah,18603,
-2013,Sarawak,41115,
-2013,Kuala Lumpur,79752,
-2013,Labuan,43848,
-2013,GDP Per Capita at Current Prices,32984,
-2014,Johor,28089,
-2014,Kedah,17327,
-2014,Kelantan,11751,
-2014,Melaka,38659,
-2014,Negeri Sembilan,35861,
-2014,Pahang,29339,
-2014,Pulau Pinang,42119,
-2014,Perak,24130,
-2014,Perlis,20994,
-2014,Selangor,40545,
-2014,Terengganu,26389,
-2014,Sabah,19729,
-2014,Sarawak,44611,
-2014,Kuala Lumpur,90546,
-2014,Labuan,55551,
-2014,GDP Per Capita at Current Prices,36030,
-2015,Johor,29579,
-2015,Kedah,18262,
-2015,Kelantan,12088,
-2015,Melaka,39864,
-2015,Negeri Sembilan,36694,
-2015,Pahang,30358,
-2015,Pulau Pinang,44844,
-2015,Perak,25487,
-2015,Perlis,21415,
-2015,Selangor,42651,
-2015,Terengganu,26540,
-2015,Sabah,19778,
-2015,Sarawak,44141,
-2015,Kuala Lumpur,94964,
-2015,Labuan,58559,
-2015,GDP Per Capita at Current Prices,37148,
-2015,Johor,30469,
-2015,Kedah,18864,
-2015,Kelantan,12159,
-2015,Melaka,40582,
-2015,Negeri Sembilan,36908,
-2015,Pahang,30754,
-2015,Pulau Pinang,46020,
-2015,Perak,25610,
-2015,Perlis,21540,
-2015,Selangor,43513,
-2015,Terengganu,26808,
-2015,Sabah,19830,
-2015,Sarawak,45006,
-2015,Kuala Lumpur,97060,
-2015,Labuan,63069,
-2015,GDP Per Capita at Current Prices,37739,
-2016,Johor,32894,
-2016,Kedah,19835,
-2016,Kelantan,12909,
-2016,Melaka,42088,
-2016,Negeri Sembilan,38744,
-2016,Pahang,32688,
-2016,Pulau Pinang,48633,
-2016,Perak,27343,
-2016,Perlis,22588,
-2016,Selangor,45506,
-2016,Terengganu,27434,
-2016,Sabah,21169,
-2016,Sarawak,45346,
-2016,Kuala Lumpur,103506,
-2016,Labuan,66348,
-2016,GDP Per Capita at Current Prices,39505,
-2016,Johor,32005,
-2016,Kedah,19161,
-2016,Kelantan,12813,
-2016,Melaka,41379,
-2016,Negeri Sembilan,38545,
-2016,Pahang,32251,
-2016,Pulau Pinang,47345,
-2016,Perak,27285,
-2016,Perlis,22482,
-2016,Selangor,44652,
-2016,Terengganu,27272,
-2016,Sabah,21086,
-2016,Sarawak,44379,
-2016,Kuala Lumpur,101576,
-2016,Labuan,61843,
-2016,GDP Per Capita at Current Prices,38915,
-2017,Johor,35315,
-2017,Kedah,20961,
-2017,Kelantan,13695,
-2017,Melaka,46828,
-2017,Negeri Sembilan,41739,
-2017,Pahang,35751,
-2017,Pulau Pinang,51130,
-2017,Perak,29341,
-2017,Perlis,23596,
-2017,Selangor,49048,
-2017,Terengganu,29848,
-2017,Sabah,24639,
-2017,Sarawak,50177,
-2017,Kuala Lumpur,113358,
-2017,Labuan,70705,
-2017,GDP Per Capita at Current Prices,42854,
-2017,Johor,34362,
-2017,Kedah,20327,
-2017,Kelantan,13593,
-2017,Melaka,46015,
-2017,Negeri Sembilan,41615,
-2017,Pahang,35352,
-2017,Pulau Pinang,49873,
-2017,Perak,29226,
-2017,Perlis,23372,
-2017,Selangor,48091,
-2017,Terengganu,29347,
-2017,Sabah,23979,
-2017,Sarawak,49327,
-2017,Kuala Lumpur,111321,
-2017,Labuan,65949,
-2017,GDP Per Capita at Current Prices,42228,
-2018,Johor,36388,
-2018,Kedah,21398,
-2018,Kelantan,13690,
-2018,Melaka,47900,
-2018,Negeri Sembilan,43017,
-2018,Pahang,35577,
-2018,Pulau Pinang,52921,
-2018,Perak,30302,
-2018,Perlis,24408,
-2018,Selangor,51547,
-2018,Terengganu,30202,
-2018,Sabah,25832,
-2018,Sarawak,52387,
-2018,Kuala Lumpur,121509,
-2018,Labuan,74271,
-2018,GDP Per Capita at Current Prices,44708,
-2019,Johor,37377,
-2019,Kedah,22378,
-2019,Kelantan,14341,
-2019,Melaka,49109,
-2019,Negeri Sembilan,45384,
-2019,Pahang,36560,
-2019,Pulau Pinang,55202,
-2019,Perak,31719,
-2019,Perlis,25513,
-2019,Selangor,55030,
-2019,Terengganu,30929,
-2019,Sabah,25368,
-2019,Sarawak,53551,
-2019,Kuala Lumpur,129677,
-2019,Labuan,77799,
-2019,GDP Per Capita at Current Prices,46513,
-2020,Johor,33861,
-2020,Kedah,22701,
-2020,Kelantan,14956,
-2020,Melaka,42880,
-2020,Negeri Sembilan,41292,
-2020,Pahang,38022,
-2020,Pulau Pinang,55783,
-2020,Perak,31633,
-2020,Perlis,21117,
-2020,Selangor,48591,
-2020,Terengganu,29508,
-2020,Sabah,24657,
-2020,Sarawak,55907,
-2020,Kuala Lumpur,108985,
-2020,Labuan,80602,
-2020,GDP Per Capita at Current Prices,43717,
-2021,Johor,36505,
-2021,Kedah,23597,
-2021,Kelantan,15598,
-2021,Melaka,44679,
-2021,Negeri Sembilan,44552,
-2021,Pahang,41335,
-2021,Pulau Pinang,59733,
-2021,Perak,34399,
-2021,Perlis,21522,
-2021,Selangor,51980,
-2021,Terengganu,30966,
-2021,Sabah,30022,
-2021,Sarawak,66027,
-2021,Kuala Lumpur,112084,
-2021,Labuan,81652,
-2021,GDP Per Capita at Current Prices,47547,
-2022,Johor,41001,
-2022,Kedah,26061,
-2022,Kelantan,16555,
-2022,Melaka,50363,
-2022,Negeri Sembilan,49851,
-2022,Pahang,47127,
-2022,Pulau Pinang,69591,
-2022,Perak,37031,
-2022,Perlis,23126,
-2022,Selangor,59804,
-2022,Terengganu,32210,
-2022,Sabah,35766,
-2022,Sarawak,80772,
-2022,Kuala Lumpur,126423,
-2022,Labuan,85522,
-2022,GDP Per Capita at Current Prices,54785,
+﻿Year,State,Value RM Million,Status Data
+2005,Johor,16298,f
+2005,Kedah,9811,f
+2005,Kelantan,6075,f
+2005,Melaka,20410,f
+2005,Negeri Sembilan,20768,f
+2005,Pahang,16534,f
+2005,Pulau Pinang,26833,f
+2005,Perak,12320,f
+2005,Perlis,12761,f
+2005,Selangor,23494,f
+2005,Terengganu,15863,f
+2005,Sabah,11134,f
+2005,Sarawak,25291,f
+2005,Kuala Lumpur,42414,f
+2005,Labuan,26552,f
+2005,GDP Per Capita at Current Prices,20870,f
+2006,Johor,16996,f
+2006,Kedah,10821,f
+2006,Kelantan,6752,f
+2006,Melaka,22065,f
+2006,Negeri Sembilan,22796,f
+2006,Pahang,18108,f
+2006,Pulau Pinang,29624,f
+2006,Perak,13233,f
+2006,Perlis,13555,f
+2006,Selangor,24571,f
+2006,Terengganu,17692,f
+2006,Sabah,12138,f
+2006,Sarawak,27782,f
+2006,Kuala Lumpur,45519,f
+2006,Labuan,31281,f
+2006,GDP Per Capita at Current Prices,22478,f
+2007,Johor,18753,f
+2007,Kedah,12160,f
+2007,Kelantan,7662,f
+2007,Melaka,23415,f
+2007,Negeri Sembilan,24605,f
+2007,Pahang,20160,f
+2007,Pulau Pinang,31381,f
+2007,Perak,14832,f
+2007,Perlis,14500,f
+2007,Selangor,26359,f
+2007,Terengganu,19476,f
+2007,Sabah,14104,f
+2007,Sarawak,30790,f
+2007,Kuala Lumpur,49687,f
+2007,Labuan,33687,f
+2007,GDP Per Capita at Current Prices,24589,f
+2008,Johor,20162,f
+2008,Kedah,13023,f
+2008,Kelantan,8570,f
+2008,Melaka,25885,f
+2008,Negeri Sembilan,26950,f
+2008,Pahang,22351,f
+2008,Pulau Pinang,33694,f
+2008,Perak,16552,f
+2008,Perlis,15705,f
+2008,Selangor,29273,f
+2008,Terengganu,20984,f
+2008,Sabah,17523,f
+2008,Sarawak,37125,f
+2008,Kuala Lumpur,56135,f
+2008,Labuan,31107,f
+2008,GDP Per Capita at Current Prices,27929,f
+2009,Johor,18878,f
+2009,Kedah,12481,f
+2009,Kelantan,8421,f
+2009,Melaka,25397,f
+2009,Negeri Sembilan,25595,f
+2009,Pahang,20548,f
+2009,Pulau Pinang,30098,f
+2009,Perak,15809,f
+2009,Perlis,15186,f
+2009,Selangor,28468,f
+2009,Terengganu,19102,f
+2009,Sabah,15515,f
+2009,Sarawak,31286,f
+2009,Kuala Lumpur,57040,f
+2009,Labuan,31200,f
+2009,GDP Per Capita at Current Prices,25385,f
+2010,Johor,21329,f
+2010,Kedah,13744,f
+2010,Kelantan,9322,f
+2010,Melaka,28328,f
+2010,Negeri Sembilan,28586,f
+2010,Pahang,23008,f
+2010,Pulau Pinang,33601,f
+2010,Perak,17341,f
+2010,Perlis,16175,f
+2010,Selangor,31457,f
+2010,Terengganu,20581,f
+2010,Sabah,17118,f
+2010,Sarawak,34136,f
+2010,Kuala Lumpur,62075,f
+2010,Labuan,32387,f
+2010,GDP Per Capita at Current Prices,27890,f
+2010,Johor,22035,f
+2010,Kedah,14034,f
+2010,Kelantan,9806,f
+2010,Melaka,29366,f
+2010,Negeri Sembilan,29363,f
+2010,Pahang,23883,f
+2010,Pulau Pinang,33597,f
+2010,Perak,18207,f
+2010,Perlis,17410,f
+2010,Selangor,32300,f
+2010,Terengganu,21573,f
+2010,Sabah,17831,f
+2010,Sarawak,35034,f
+2010,Kuala Lumpur,64693,f
+2010,Labuan,38445,f
+2010,GDP Per Capita at Current Prices,28733,f
+2011,Johor,23562,f
+2011,Kedah,15393,f
+2011,Kelantan,10363,f
+2011,Melaka,31161,f
+2011,Negeri Sembilan,31222,f
+2011,Pahang,26057,f
+2011,Pulau Pinang,35069,f
+2011,Perak,19350,f
+2011,Perlis,17032,f
+2011,Selangor,33687,f
+2011,Terengganu,22145,f
+2011,Sabah,18932,f
+2011,Sarawak,39566,f
+2011,Kuala Lumpur,68125,f
+2011,Labuan,37113,f
+2011,GDP Per Capita at Current Prices,30464,f
+2011,Johor,24350,f
+2011,Kedah,15563,f
+2011,Kelantan,10894,f
+2011,Melaka,32421,f
+2011,Negeri Sembilan,32136,f
+2011,Pahang,27069,f
+2011,Pulau Pinang,35527,f
+2011,Perak,20370,f
+2011,Perlis,18299,f
+2011,Selangor,34478,f
+2011,Terengganu,23282,f
+2011,Sabah,19648,f
+2011,Sarawak,40632,f
+2011,Kuala Lumpur,70675,f
+2011,Labuan,44044,f
+2011,GDP Per Capita at Current Prices,31372,f
+2012,Johor,25442,f
+2012,Kedah,16088,f
+2012,Kelantan,11217,f
+2012,Melaka,34965,f
+2012,Negeri Sembilan,33761,f
+2012,Pahang,27413,f
+2012,Pulau Pinang,37053,f
+2012,Perak,21711,f
+2012,Perlis,19537,f
+2012,Selangor,36799,f
+2012,Terengganu,23935,f
+2012,Sabah,19487,f
+2012,Sarawak,41493,f
+2012,Kuala Lumpur,77073,f
+2012,Labuan,49157,f
+2012,GDP Per Capita at Current Prices,32913,f
+2013,Johor,26308,f
+2013,Kedah,16616,f
+2013,Kelantan,11284,f
+2013,Melaka,35699,f
+2013,Negeri Sembilan,34118,f
+2013,Pahang,27856,f
+2013,Pulau Pinang,38490,f
+2013,Perak,22445,f
+2013,Perlis,20196,f
+2013,Selangor,38071,f
+2013,Terengganu,24449,f
+2013,Sabah,18680,f
+2013,Sarawak,41766,f
+2013,Kuala Lumpur,82208,f
+2013,Labuan,53576,f
+2013,GDP Per Capita at Current Prices,33714,f
+2014,Johor,28089,f
+2014,Kedah,17327,f
+2014,Kelantan,11751,f
+2014,Melaka,38659,f
+2014,Negeri Sembilan,35861,f
+2014,Pahang,29339,f
+2014,Pulau Pinang,42119,f
+2014,Perak,24130,f
+2014,Perlis,20994,f
+2014,Selangor,40545,f
+2014,Terengganu,26389,f
+2014,Sabah,19729,f
+2014,Sarawak,44611,f
+2014,Kuala Lumpur,90546,f
+2014,Labuan,55551,f
+2014,GDP Per Capita at Current Prices,36030,f
+2015,Johor,29579,f
+2015,Kedah,18262,f
+2015,Kelantan,12088,f
+2015,Melaka,39864,f
+2015,Negeri Sembilan,36694,f
+2015,Pahang,30358,f
+2015,Pulau Pinang,44844,f
+2015,Perak,25487,f
+2015,Perlis,21415,f
+2015,Selangor,42651,f
+2015,Terengganu,26540,f
+2015,Sabah,19778,f
+2015,Sarawak,44141,f
+2015,Kuala Lumpur,94964,f
+2015,Labuan,58559,f
+2015,GDP Per Capita at Current Prices,37148,f
+2015,Johor,30469,f
+2015,Kedah,18864,f
+2015,Kelantan,12159,f
+2015,Melaka,40582,f
+2015,Negeri Sembilan,36908,f
+2015,Pahang,30754,f
+2015,Pulau Pinang,46020,f
+2015,Perak,25610,f
+2015,Perlis,21540,f
+2015,Selangor,43513,f
+2015,Terengganu,26808,f
+2015,Sabah,19830,f
+2015,Sarawak,45006,f
+2015,Kuala Lumpur,97060,f
+2015,Labuan,63069,f
+2015,GDP Per Capita at Current Prices,37739,f
+2016,Johor,32894,f
+2016,Kedah,19835,f
+2016,Kelantan,12909,f
+2016,Melaka,42088,f
+2016,Negeri Sembilan,38744,f
+2016,Pahang,32688,f
+2016,Pulau Pinang,48633,f
+2016,Perak,27343,f
+2016,Perlis,22588,f
+2016,Selangor,45506,f
+2016,Terengganu,27434,f
+2016,Sabah,21169,f
+2016,Sarawak,45346,f
+2016,Kuala Lumpur,103506,f
+2016,Labuan,66348,f
+2016,GDP Per Capita at Current Prices,39505,f
+2017,Johor,35315,f
+2017,Kedah,20961,f
+2017,Kelantan,13695,f
+2017,Melaka,46828,f
+2017,Negeri Sembilan,41739,f
+2017,Pahang,35751,f
+2017,Pulau Pinang,51130,f
+2017,Perak,29341,f
+2017,Perlis,23596,f
+2017,Selangor,49048,f
+2017,Terengganu,29848,f
+2017,Sabah,24639,f
+2017,Sarawak,50177,f
+2017,Kuala Lumpur,113358,f
+2017,Labuan,70705,f
+2017,GDP Per Capita at Current Prices,42854,f
+2018,Johor,36388,f
+2018,Kedah,21398,f
+2018,Kelantan,13690,f
+2018,Melaka,47900,f
+2018,Negeri Sembilan,43017,f
+2018,Pahang,35577,f
+2018,Pulau Pinang,52921,f
+2018,Perak,30302,f
+2018,Perlis,24408,f
+2018,Selangor,51547,f
+2018,Terengganu,30202,f
+2018,Sabah,25832,f
+2018,Sarawak,52387,f
+2018,Kuala Lumpur,121509,f
+2018,Labuan,74271,f
+2018,GDP Per Capita at Current Prices,44708,f
+2019,Johor,37377,f
+2019,Kedah,22378,f
+2019,Kelantan,14341,f
+2019,Melaka,49109,f
+2019,Negeri Sembilan,45384,f
+2019,Pahang,36560,f
+2019,Pulau Pinang,55202,f
+2019,Perak,31719,f
+2019,Perlis,25513,f
+2019,Selangor,55030,f
+2019,Terengganu,30929,f
+2019,Sabah,25368,f
+2019,Sarawak,53551,f
+2019,Kuala Lumpur,129677,f
+2019,Labuan,77799,f
+2019,GDP Per Capita at Current Prices,46513,f
+2020,Johor,33861,f
+2020,Kedah,22701,f
+2020,Kelantan,14956,f
+2020,Melaka,42880,f
+2020,Negeri Sembilan,41292,f
+2020,Pahang,38022,f
+2020,Pulau Pinang,55783,f
+2020,Perak,31633,f
+2020,Perlis,21117,f
+2020,Selangor,48591,f
+2020,Terengganu,29508,f
+2020,Sabah,24657,f
+2020,Sarawak,55907,f
+2020,Kuala Lumpur,108985,f
+2020,Labuan,80602,f
+2020,GDP Per Capita at Current Prices,43717,f

@@ -43,32 +43,30 @@
     {
       "title": "Intentional Homicide Cases in Malaysian States",
       "width": 250,
-      "height": 250,
+      "height": 300,
       "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/HomeworkWK10/main/13.6.12_Number%20of%20intentional%20homicide%20cases%20by%20state%20-%20Malaysia%20-%202014%E2%80%932021_dataset.csv"
+        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
       },
       "mark": "bar",
       "encoding": {
         "x": {"field": "State", "type": "nominal"},
-        "y": {"field": "Number of Cases", "type": "quantitative","scale": {"domain": [0, 200]}},
-        "color": {"field": "Intentional homicide cases", "type": "nominal"}
+        "y": {"field": "Value_RM_Million", "type": "quantitative","scale": {"domain": [0, 150000]}, "title": "GDP (RM) (Million)"},
+        "color": {"field": "State", "type": "nominal"}
       },
       "transform": [
-        {"filter": "datum.Year==year"},
-        {"calculate": "if(datum['Intentional homicide cases'] === 'Solving case', 'Total cases', 'Solved')", "as": "Intentional Homicide Case Type"}
+        {"filter": "datum.Year==year"}
       ],
       "config": {"view": {"stroke": "transparent"}}
     }
-    
   ],
 
   "params": [
     {
       "name": "year",
-      "value": 2000,
+      "value": 2005,
       "bind": {
         "input": "range",
-        "min": 2000,
+        "min": 2005,
         "max": 2020,
         "step": 1,
         "name": "Select the year:"
