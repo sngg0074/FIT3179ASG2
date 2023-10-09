@@ -1,30 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/0bc372c070b06f1f7c1f3937a49a17c27ef374d7/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/d4f84b97e2cce85f5fe1131c0e0f42a7d8b7b3e5/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
   },
+  "transform": [
+    {"window": [{"op": "State", "as": "index"}]},
+    {"fold": ["petalLength", "petalWidth", "sepalLength", "sepalWidth"]}
+  ],
   "mark": "line",
   "encoding": {
-    "y": {
-      "field": "State",
-      "type": "nominal",
-      "axis": {
-        "title": "State"
-      }
-    },
-    "x": {
-      "field": "Total",
-      "type": "quantitative",
-      "axis": {
-        "title": "Total"
-      }
-    },
-    "color": {
-      "field": "Sector",
-      "type": "nominal",
-      "legend": {
-        "title": "Sector"
-      }
-    }
-  }
+    "color": {"type": "nominal", "field": "species"},
+    "detail": {"type": "nominal", "field": "index"},
+    "opacity": {"value": 0.3},
+    "x": {"type": "nominal", "field": "key"},
+    "y": {"type": "quantitative", "field": "value"}
+  },
+  "width": 600,
+  "height": 300
 }
