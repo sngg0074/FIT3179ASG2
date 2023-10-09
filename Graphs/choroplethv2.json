@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "vconcat": [
+  "hconcat": [
     {
     "title": "Unemployment Rate throughout Malaysia from 2000 to 2020",
     "width": 250,
@@ -45,7 +45,7 @@
       "width": 250,
       "height": 300,
       "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ad0fb7f2e378d1861c254f7cd1180854f667a159/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
+        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/e9c75ac8b3a8770a08187137408ecad66e93b5cf/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
       },
       "mark": "bar",
       "encoding": {

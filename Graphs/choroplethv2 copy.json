@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "url": "your_data.csv" 
+  },
+  "mark": "arc",
+  "encoding": {
+    "color": {"field": "source", "type": "nominal"},
+    "tooltip": [
+      {"field": "source", "type": "nominal", "title": "Source"},
+      {"field": "target", "type": "nominal", "title": "Target"},
+      {"field": "value", "type": "quantitative", "title": "Value"}
+    ]
+  }
+}
