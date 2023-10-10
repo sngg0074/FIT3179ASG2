@@ -1,64 +1,127 @@
-year,ministry,Employment_Status,Occupation_MASCO,Male,Female,Total
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2081,2001,4082
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,16692,26959,43651
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,8360,4315,12675
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,1952,7794,9746
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4600,7485,12085
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",346,201,547
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,354,394,748
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",764,531,1295
-2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1011,1447,2458
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2509,2500,5009
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,18457,27820,46277
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,9063,4298,13361
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,2719,10481,13200
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4779,7912,12691
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",406,137,543
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,795,418,1213
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",685,335,1020
-2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1629,1896,3525
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3123,3126,6249
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,18325,27854,46179
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,8515,3574,12089
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3606,13281,16887
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4645,7809,12454
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",375,105,480
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,1962,587,2549
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",579,204,783
-2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2521,2538,5059
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3047,3336,6383
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,17569,27641,45210
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6927,2722,9649
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3284,12786,16070
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4871,8353,13224
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",312,111,423
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2720,830,3550
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",544,242,786
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2617,2799,5416
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3202,3650,6852
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,17104,25391,42495
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6111,2765,8876
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3897,14291,18188
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,5187,8638,13825
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",396,126,522
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2461,787,3248
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",565,237,802
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2789,3104,5893
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3268,3325,6593
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,20173,36316,56489
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6793,2863,9656
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3795,14646,18441
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,5693,9551,15244
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",463,118,581
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2529,752,3281
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",594,311,905
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2870,3278,6148
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,4091,4143,8234
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,20114,35496,55610
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,7466,3297,10763
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,4503,16709,21212
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,7372,12431,19803
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",569,221,790
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,3178,1131,4309
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Machine and Plant Operators",822,442,1264
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,3112,3622,6734
+year,ministry,Employment_Status,Occupation_MASCO,Number_Employed,gender
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2081,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,16692,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,8360,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,1952,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4600,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",346,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,354,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,764,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1011,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2509,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,18457,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,9063,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,2719,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4779,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",406,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,795,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,685,Male
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1629,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3123,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,18325,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,8515,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3606,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4645,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",375,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,1962,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,579,Male
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2521,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3047,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,17569,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6927,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3284,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,4871,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",312,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2720,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,544,Male
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2617,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3202,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,17104,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6111,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3897,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,5187,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",396,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2461,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,565,Male
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2789,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3268,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,20173,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,6793,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,3795,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,5693,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",463,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,2529,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,594,Male
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2870,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,4091,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,20114,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,7466,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,4503,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,7372,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",569,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,3178,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,822,Male
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,3112,Male
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2001,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,26959,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,4315,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,7794,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,7485,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",201,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,394,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,531,Female
+2010,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1447,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,2500,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,27820,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,4298,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,10481,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,7912,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",137,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,418,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,335,Female
+2011,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,1896,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3126,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,27854,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,3574,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,13281,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,7809,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",105,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,587,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,204,Female
+2012,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2538,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3336,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,27641,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,2722,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,12786,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,8353,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",111,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,830,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,242,Female
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,2799,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3650,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,25391,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,2765,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,14291,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,8638,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",126,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,787,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,237,Female
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,3104,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,3325,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,36316,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,2863,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,14646,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,9551,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",118,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,752,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,311,Female
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,3278,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Manager,4143,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Professional,35496,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Technicians and Associate Professionals,3297,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Clerical Support Workers,16709,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service and Sales Workers,12431,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers",221,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Skilled Craft and Related Trades Workers,1131,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Machine and Plant Operators,442,Female
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,General workers,3622,Female

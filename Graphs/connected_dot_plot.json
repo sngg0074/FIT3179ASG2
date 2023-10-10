@@ -1,18 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
-  "data": {"url":"https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/7bfc6e7a06e9417486deb9d5957f25a9d70b9380/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
+  "data": {"url":"https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/394a089b5b4ff54068104903cb5e9a4b1198cc8b/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
   "transform": [
     {
       "filter": {
-        "field": "country",
-        "oneOf": ["China", "India", "United States", "Indonesia", "Brazil"]
+        "field": "Occupation_MASCO",
+        "oneOf": ["Manager", "Professional", "Technicians and Associate Professionals", "Clerical Support Workers", "Service and Sales Workers","Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers","Skilled Craft and Related Trades Workers", "Machine and Plant Operators","General workers"]
       }
     },
     {
       "filter": {
-        "field": "year",
-        "oneOf": [1955, 2000]
+        "field": ["Male", "Female"],
+        "oneOf": ["Male", 2000]
       }
     }
   ],
