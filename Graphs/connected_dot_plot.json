@@ -1,31 +1,41 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A ranged dot plot that uses 'layer' to convey changing life expectancy for the five most populous countries (between 1955 and 2000).",
-  "data": {"url":"https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/394a089b5b4ff54068104903cb5e9a4b1198cc8b/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
+  "title": "Employment by Occupation Category by Gender",
+  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/59960d80bdfffc01ce18cacf93bf44f4982d7a24/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
   "transform": [
     {
       "filter": {
         "field": "Occupation_MASCO",
-        "oneOf": ["Manager", "Professional", "Technicians and Associate Professionals", "Clerical Support Workers", "Service and Sales Workers","Skilled Agricultural, Forestry, Animal Husbandry, and Fishery Workers","Skilled Craft and Related Trades Workers", "Machine and Plant Operators","General workers"]
+        "oneOf": ["Manager",
+        "Professional",
+        "Technicians and Associates",
+        "Clerical Support",
+        "Service and Sales",
+        "Skilled Agriculture",
+        "Skilled Craft",
+        "Machine and Plant Operators",
+        "General Workers"]
       }
     },
     {
       "filter": {
-        "field": ["Male", "Female"],
-        "oneOf": ["Male", 2000]
+        "field": "gender",
+        "oneOf": ["Male", "Female"]
       }
-    }
+    },
+    {"filter": "datum.year==year"}
   ],
   "encoding": {
     "x": {
-      "field": "life_expect",
+      "field": "Number_Employed",
       "type": "quantitative",
-      "title": "Life Expectancy (years)"
+      "title": "Number of Employees",
+      "scale": {"domain": [0, 37000]}
     },
     "y": {
-      "field": "country",
+      "field": "Occupation_MASCO",
       "type": "nominal",
-      "title": "Country",
+      "title": "Occupation",
       "axis": {
         "offset": 5,
         "ticks": false,
@@ -39,7 +49,7 @@
       "mark": "line",
       "encoding": {
         "detail": {
-          "field": "country",
+          "field": "Occupation_MASCO",
           "type": "nominal"
         },
         "color": {"value": "#db646f"}
@@ -52,17 +62,31 @@
       },
       "encoding": {
         "color": {
-          "field": "year",
+          "field": "gender",
           "type": "ordinal",
           "scale": {
-            "domain": [1955, 2000],
+            "domain": ["Male", "Female"],
             "range": ["#e6959c", "#911a24"]
           },
-          "title": "Year"
+          "title": "Gender"
         },
         "size": {"value": 100},
         "opacity": {"value": 1}
       }
     }
+  ],
+  "params": [
+    {
+      "name": "year",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2016,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
   ]
+  
 }
