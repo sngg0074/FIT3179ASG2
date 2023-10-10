@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/5a46e13b1fa68df404bffec1c1bd46119726919e/Dataset/Total_Employees_by_Establishment_Size_and_State_2016_2018.csv"
+  },
+  "width": 600,
+  "height": 600,
+  "transform": [
+    {
+      "filter": {
+      "field": "Employer Category",
+        "oneOf": ["Large"]
+      }
+    }  ],
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal"},
+    "y": {"field": "Total", "type": "quantitative"},
+    "color": {"field": "State", "type": "nominal"},
+    "order": {"field": "Year", "type": "ordinal"}
+  }
+}
