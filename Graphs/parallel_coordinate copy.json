@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/800095b92eba6b203ce14809b6a4b07a0f344a1f/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
+  },
+  "transform": [
+    {"window": [{"op": "count", "as": "index"}]},
+    {"fold": ["Accommodation","Extraterritorial_Organisations","Households_Activities","Admin_Support","Agriculture","Arts_Entertainment","Construction","Electricity_Gas_Steam","Financial_Insurance","Health_Social_Work","Information_Communication","Manufacturing","Mining_Quarrying","Other_Services","Professional_Technical","Public_Admin_Defence","Real_Estate","Transportation_Storage","Water_Supply_Sewerage_Waste","Wholesale_Retail_Repair"
+  ]},{"filter": "datum.Year==year"}
+  ],
+  "mark": "line",
+  "encoding": {
+    "color": {"type": "nominal", "field": "State"},
+    "detail": {"type": "nominal", "field": "index"},
+    "opacity": {"value": 0.6},
+    "x": {"type": "nominal", "field": "key"},
+    "y": {"type": "quantitative", "field": "value", "scale": {"type": "sqrt"}}
+  },
+  "width": 600,
+  "height": 400,
+  "params": [
+    {
+      "name": "year",
+      "value": 2015,
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2017,
+        "step": 1,
+        "name": "Select the year:"
+      }
+    }
+  ]
+}
