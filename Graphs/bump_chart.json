@@ -7,6 +7,15 @@
   "height": 600,
   "transform": [
     {
+      "lookup": "Country/State",
+      "from": {"data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/"}, "key": "State", "fields": ["Total Population"]},
+      "as": "populationData"
+    },
+    {
+      "calculate": "datum.Total / datum.populationData[0].Total_Population",
+      "as": "TotalPerCapita"
+    },
+    {
       "filter": {
       "field": "Employer Category",
         "oneOf": ["Large"]
@@ -20,3 +29,16 @@
     "order": {"field": "Year", "type": "ordinal"}
   }
 }
+
+
+"transform": [
+  {
+    "lookup": "State",
+    "from": {"data": {"url": "data_source2.json"}, "key": "State", "fields": ["Total Population"]},
+    "as": "populationData"
+  },
+  {
+    "calculate": "datum.Total / datum.populationData[0].Total_Population",
+    "as": "TotalPerCapita"
+  }
+],
