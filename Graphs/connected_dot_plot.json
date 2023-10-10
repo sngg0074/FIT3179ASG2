@@ -1,20 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Employment by Occupation Category by Gender",
-  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/59960d80bdfffc01ce18cacf93bf44f4982d7a24/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/a0038787b1a98fd7947d70c78a01d13cb950023b/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
   "transform": [
     {
       "filter": {
         "field": "Occupation_MASCO",
-        "oneOf": ["Manager",
-        "Professional",
-        "Technicians and Associates",
-        "Clerical Support",
-        "Service and Sales",
-        "Skilled Agriculture",
-        "Skilled Craft",
-        "Machine and Plant Operators",
-        "General Workers"]
+        "oneOf": ["Managerial", "Professional", "Technical", "Secretarial", "Service/Sales", "Agricultural", "Craft Workers", "Machine Operators", "General Workers"]
       }
     },
     {
