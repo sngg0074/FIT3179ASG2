@@ -25,12 +25,12 @@ Year,State,Employer Category,Total
 2016,Selangor,SME,237738
 2016,Terengganu,Large,8054
 2016,Terengganu,SME,13402
-2016,Wilayah Persekutuan Kuala Lumpur,Large,265315
-2016,Wilayah Persekutuan Kuala Lumpur,SME,92510
-2016,Wilayah Persekutuan Labuan,Large,1586
-2016,Wilayah Persekutuan Labuan,SME,1339
-2016,Wilayah Persekutuan Putrajaya,Large,1772
-2016,Wilayah Persekutuan Putrajaya,SME,255
+2016,Kuala Lumpur,Large,265315
+2016,Kuala Lumpur,SME,92510
+2016,Labuan,Large,1586
+2016,Labuan,SME,1339
+2016,Putrajaya,Large,1772
+2016,Putrajaya,SME,255
 2017,Johor,Large,86261
 2017,Johor,SME,140916
 2017,Kedah,Large,34149
@@ -57,12 +57,12 @@ Year,State,Employer Category,Total
 2017,Selangor,SME,258358
 2017,Terengganu,Large,8403
 2017,Terengganu,SME,13783
-2017,Wilayah Persekutuan Kuala Lumpur,Large,263737
-2017,Wilayah Persekutuan Kuala Lumpur,SME,109821
-2017,Wilayah Persekutuan Labuan,Large,1492
-2017,Wilayah Persekutuan Labuan,SME,1433
-2017,Wilayah Persekutuan Putrajaya,Large,1927
-2017,Wilayah Persekutuan Putrajaya,SME,300
+2017,Kuala Lumpur,Large,263737
+2017,Kuala Lumpur,SME,109821
+2017,Labuan,Large,1492
+2017,Labuan,SME,1433
+2017,Putrajaya,Large,1927
+2017,Putrajaya,SME,300
 2018,Johor,Large,87303
 2018,Johor,SME,139917
 2018,Kedah,Large,34544
@@ -89,9 +89,9 @@ Year,State,Employer Category,Total
 2018,Selangor,SME,268069
 2018,Terengganu,Large,8407
 2018,Terengganu,SME,14263
-2018,Wilayah Persekutuan Kuala Lumpur,Large,269785
-2018,Wilayah Persekutuan Kuala Lumpur,SME,107502
-2018,Wilayah Persekutuan Labuan,Large,1492
-2018,Wilayah Persekutuan Labuan,SME,1466
-2018,Wilayah Persekutuan Putrajaya,Large,1716
-2018,Wilayah Persekutuan Putrajaya,SME,563
+2018,Kuala Lumpur,Large,269785
+2018,Kuala Lumpur,SME,107502
+2018,Labuan,Large,1492
+2018,Labuan,SME,1466
+2018,Putrajaya,Large,1716
+2018,Putrajaya,SME,563

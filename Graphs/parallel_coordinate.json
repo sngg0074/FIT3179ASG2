@@ -16,8 +16,8 @@
     "x": {"type": "nominal", "field": "key"},
     "y": {"type": "quantitative", "field": "value", "scale": {"type": "sqrt"}}
   },
-  "width": 600,
-  "height": 400,
+  "width": 350,
+  "height": 350,
   "params": [
     {
       "name": "year",

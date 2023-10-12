@@ -1,0 +1,148 @@
+body {
+    background-color: whitesmoke;
+}
+
+#specific-image {
+    width: 1300px;
+    height: auto;
+    border: px solid #333;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888888;
+  }
+
+
+.page {
+    width: 1300px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.header h1{
+    text-align: center;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.header p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.space {
+    height: 10px;
+}
+
+.pure-u-7-8 p{
+    padding-left: 20px;
+    line-height: 30.6px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #012169;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#reference p{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #012169;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#link p{
+    font-size: 14px;
+    color: #969696;
+}
+
+.pure-u-1-9 img{
+    width: 80px;
+    display: grid;
+    place-items: center;    
+}
+
+.pure-u-1-1 p{
+    text-align: justify;
+    line-height: 26px;
+    color: #525252;
+}
+
+#map_title {
+    text-align: center;
+    font-size: small;
+}
+
+#bump_title{
+    text-align: center;
+    font-size: small;
+    padding-left: 40px;
+}
+
+#bump_chart{
+    padding-left: 40px;
+}
+
+#bar_title{
+    text-align: center;
+    font-size: small;
+}
+
+#box_plot{
+    padding-left: 40px;
+}
+
+#box_title{
+    text-align: center;
+    font-size: small;
+    padding-left: 40px;
+}
+
+#donut_title {
+    text-align: center;
+    font-size: small;
+}
+
+#donut_chart_concat{
+    padding-left: 60px;
+}
+
+#dot_plot_title {
+    text-align: center;
+    font-size: small;
+    padding-left: 80px;
+}
+
+#range_dot_plot{
+    padding-left: 80px;
+}
+
+#bubble_title {
+    text-align: center;
+    font-size: small;
+}
+
+#scatter_title {
+    text-align: center;
+    font-size: small;
+}
+
+#scatter_plot {
+    padding-left: 10px;
+}
+
+#small-font p{
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #969696;
+}
+
+.section-break {
+    border: 2px solid #1b5fff; /* Set the line thickness and color */
+    margin: 20px 0; /* Add some space above and below the line */
+}

@@ -3,12 +3,16 @@
   "data": {
     "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/5a46e13b1fa68df404bffec1c1bd46119726919e/Dataset/Total_Employees_by_Establishment_Size_and_State_2016_2018.csv"
   },
-  "width": 600,
+  "width": "container",
   "height": 600,
   "transform": [
     {
-      "lookup": "Country/State",
-      "from": {"data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/"}, "key": "State", "fields": ["Total Population"]},
+      "lookup": ["State", "Year"],
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/340a85800685ebdea9044e5617a8d3bdda6ae1cb/Dataset/Population_by_state_administrative_district_and_sex_2016_2020.csv"},
+        "key": ["Country/State", "Year"],
+        "fields": ["Total Population"]
+      },
       "as": "populationData"
     },
     {
@@ -29,16 +33,3 @@
     "order": {"field": "Year", "type": "ordinal"}
   }
 }
-
-
-"transform": [
-  {
-    "lookup": "State",
-    "from": {"data": {"url": "data_source2.json"}, "key": "State", "fields": ["Total Population"]},
-    "as": "populationData"
-  },
-  {
-    "calculate": "datum.Total / datum.populationData[0].Total_Population",
-    "as": "TotalPerCapita"
-  }
-],

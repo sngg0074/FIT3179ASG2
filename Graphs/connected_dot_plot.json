@@ -17,6 +17,8 @@
     },
     {"filter": "datum.year==year"}
   ],
+  "width": 350,
+  "height": 400,
   "encoding": {
     "x": {
       "field": "Number_Employed",

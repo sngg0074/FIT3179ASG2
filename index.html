@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Data Viz 2</title>
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+        <!-- Pure.css stylesheet-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" 
+            integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/layout.css">
+    
+        <!-- JS -->
+        <script src="vega-lite-vis.js"></script>
+
+    </head>
+    
+    <body>
+        <div class="page">
+
+            <!-- Banner -->
+            <div class="header">
+                <img src="img\employment_banner_trimmed.jpg" id="specific-image" />
+                <div class="pure-u-1-1">
+                    <p> 
+                        It cannot be denied that employment is important when it comes to discussing a country's economic standing as
+                        employment dictates a societal and also the country's development. Hence, as we discuss the state of employment trends
+                        in Malaysia during the 2000's and 2010's we are able to see how this Southeast Asian nation with it's diverse economy 
+                        evolve over time as different sectors deal with different challenges. Within this window of time marks substantial growth
+                        as Malaysia is home to many industries dealing with export and as infrastructure development progresses deal to the evergrowing 
+                        population, there exist a demand for manpower leading to job opportunities which will be discussed.  
+                    </p>
+                
+            </div>
+
+            <!-- Ranking -->
+            <div class="space"> </div>
+
+            <hr class="section-break">
+
+
+
+            <div class="space"> </div>
+            <div class="pure-g">
+                <div class="pure-u-7-8">
+                    <p>Unemployment rate and GDP of Malaysian States</p>
+                </div>
+                <div class="pure-u-1-9">
+                    <img src="" />
+                </div>
+            </div>
+
+            <!-- Choropleth -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <p>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="pure-u-1-1">
+                    <p id="map_title">Unemployment rate and GDP of Malaysian States</p>
+                    <div id="choropleth" class="vis-container"></div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Employer's Contribution -->
+            <div class="space"> </div>
+            <div class="space"> </div>
+            <div class="space"> </div>
+
+            <hr class="section-break">
+
+            <div class="space"> </div>
+            <div class="pure-g">
+                <div class="pure-u-7-8">
+                    <p>Employer's Contribution</p>
+                </div>
+                <div class="pure-u-1-9">
+                    <img src="" />
+                </div>
+            </div>
+
+            <!-- Connected Dot Plot -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <p>
+                        <br><br>
+                    </p>
+                </div>
+                <div class="pure-u-md-1-2">
+                    <p id="bar_title">
+                        Employment by  
+                        <span span style="color: #C8102E"><b>Occupation Category</b></span> 
+                        by 
+                        <span span style="color: #C8102E"><b>Gender</b></span> 
+                        </p>    
+                    <div id="condotplot" class="vis-container"></div>
+                    
+                </div>
+                <div class=pure-u-md-1-2>
+                    <p id="box_title">
+                        Total  
+                        <span span style="color: #C8102E"><b>Employers Contribution</b></span> 
+                        by 
+                        <span span style="color: #C8102E"><b>Sector</b></span>
+                        and 
+                        <span span style="color: #C8102E"><b>State</b></span>
+                        from 2015 to 2017  
+                        </p>    
+                    <div id="condotplot" class="vis-container"></div>
+                    <div id="paralco" class="vis-container"></div>
+                </div>
+            </div>
+
+        </div> <!-- End -->
+    </body> 
+    
+    
+</html>
