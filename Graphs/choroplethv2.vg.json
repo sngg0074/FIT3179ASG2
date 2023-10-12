@@ -34,22 +34,33 @@
           },
           {"filter": "datum.year==year"}
         ],
+        "params": [
+          {"name": "hover", "select": {"type": "point", "on": "mouseover"}},
+          {"name": "select", "select": "point"}
+        ],
         "projection": {"type": "equalEarth"},
         "mark": {"type": "geoshape"},
         "encoding": {
-          "color": {"field": "unemployment_rate", "type": "quantitative","scale": {
+          "color": {
+            "condition": {
+              "param": "select",
+              "field": "unemployment_rate", 
+              "type": "quantitative",
+              "scale": {
               "type": "threshold",
               "domain": [2, 4, 6, 8],
               "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
               },
               "title":"Unemployment Rate (Percentage)"
+            },
+            "value": "grey"
           },
           "tooltip": [
             {"field": "properties.Name", "type": "nominal", "title": "State"},
             {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
           ]
         }
-        }
+      }
       ]
     },
     
