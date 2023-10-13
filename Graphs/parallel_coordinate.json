@@ -5,16 +5,16 @@
   },
   "transform": [
     {"window": [{"op": "count", "as": "index"}]},
-    {"fold": ["Accommodation","Extraterritorial_Organisations","Households_Activities","Admin_Support","Agriculture","Arts_Entertainment","Construction","Electricity_Gas_Steam","Financial_Insurance","Health_Social_Work","Information_Communication","Manufacturing","Mining_Quarrying","Other_Services","Professional_Technical","Public_Admin_Defence","Real_Estate","Transportation_Storage","Water_Supply_Sewerage_Waste","Wholesale_Retail_Repair"
-  ]},{"filter": "datum.Year==year"}
+    {"fold": ["State"]},
+    {"filter": "datum.Year==year"}
   ],
-  "mark": "line",
+  "mark": "bar",
   "encoding": {
-    "color": {"type": "nominal", "field": "State"},
+    "color": {"type": "nominal", "field":"Accommodation","Extraterritorial_Organisations","Households_Activities","Admin_Support","Agriculture","Arts_Entertainment","Construction","Electricity_Gas_Steam","Financial_Insurance","Health_Social_Work","Information_Communication","Manufacturing","Mining_Quarrying","Other_Services","Professional_Technical","Public_Admin_Defence","Real_Estate","Transportation_Storage","Water_Supply_Sewerage_Waste","Wholesale_Retail_Repair" },
     "detail": {"type": "nominal", "field": "index"},
     "opacity": {"value": 0.6},
     "x": {"type": "nominal", "field": "key"},
-    "y": {"type": "quantitative", "field": "value", "scale": {"type": "sqrt"}}
+    "y": {"type": "quantitative", "field": "value"}
   },
   "width": 350,
   "height": 350,
@@ -32,3 +32,6 @@
     }
   ]
 }
+
+
+

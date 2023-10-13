@@ -1,96 +1,72 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "fontSize": 25,
-    "subtitle": [
-      "Years 2005 to 2020"
-    ],
-    "align": "center",
-    "dx": 385,
-    "dy": -30
-  },
-  "hconcat": [
-    {
-      "layer": [
-        {
-        "title": "Unemployment Rate throughout Malaysia from 2000 to 2020",
-        "width": 580,
-        "height": 250,
-        "data": {
-          "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
-          "format": {"type": "csv"}
-        },
-        "transform": [
-          {
-            "lookup": "state",
-            "from": {
-              "data": {
-                "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/malaysia-states.topojson",
-                "format": {"type": "topojson", "feature": "states"}
-              },
-              "key": "properties.Name",
-              "fields": ["properties", "type", "geometry"]
-            }
-          },
-          {"filter": "datum.year==year"}
-        ],
-        "params": [
-          {"name": "hover", "select": {"type": "point", "on": "mouseover"}},
-          {"name": "select", "select": "point"}
-        ],
-        "projection": {"type": "equalEarth"},
-        "mark": {"type": "geoshape"},
-        "encoding": {
-          "color": {
-            "condition": {
-              "param": "select",
-              "field": "unemployment_rate", 
-              "type": "quantitative",
-              "scale": {
-              "type": "threshold",
-              "domain": [2, 4, 6, 8],
-              "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
-              },
-              "title":"Unemployment Rate (Percentage)"
-            },
-            "value": "grey"
-          },
-          "tooltip": [
-            {"field": "properties.Name", "type": "nominal", "title": "State"},
-            {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
-          ]
-        }
-      }
-      ]
-    },
-    
-    
-    {
-      "layer": [
-    {
-      "title": "GDP in Malaysian States",
-      "width": 250,
-      "height": 300,
+  "view": {"stroke":"#ffffff"},
+  "background":"#ffffff",
+
+
+    "layer": [
+      {
+      "width": 1000,
+      "height": 460,
       "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/e9c75ac8b3a8770a08187137408ecad66e93b5cf/Dataset/GDP_Per_Capita_by_State_at_Current_Prices_2005_2022.csv"
-      },
-      "mark": "bar",
-      "encoding": {
-        "x": {"field": "State", "type": "nominal"},
-        "y": {"field": "Value_RM_Million", "type": "quantitative","scale": {"domain": [0, 150000]}, "title": "GDP (RM) (Million)"},
-        "color": {"field": "State", "type": "nominal"},
-        "tooltip": [
-          {"field": "State", "type": "nominal", "title": "State"},
-          {"field": "Value_RM_Million", "type": "quantitative", "title":"GDP"}
-        ]
+        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
+        "format": {"type": "csv"}
       },
       "transform": [
-        {"filter": "datum.Year==year"}
+        {
+          "lookup": "state",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/malaysia-states.topojson",
+              "format": {"type": "topojson", "feature": "states"}
+            },
+            "key": "properties.Name",
+            "fields": ["properties", "type", "geometry"]
+          }
+        },
+        {"filter": "datum.year==year"}
       ],
-      "config": {"view": {"stroke": "transparent"}}
+      "params": [
+        {"name": "hover", "select": {"type": "point", "on": "mouseover"}},
+        {"name": "select", "select": "point"}
+      ],
+      "projection": {"type": "equalEarth"},
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#050917",
+        "strokeWidth": 0.5
+    },
+      "encoding": {
+        "color": {
+          "condition": {
+            "param": "select",
+            "field": "unemployment_rate", 
+            "type": "quantitative",
+            "scale": {
+            "type": "threshold",
+            "domain": [2, 4, 6, 8],
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
+            },
+            "title":"Unemployment Rate (Percentage)"
+          },
+          "value": "grey"
+        },
+        "opacity": {
+          "condition": {
+              "param": "select",
+              "value": 1
+          },
+        "value": 0.2
+      },
+        "tooltip": [
+          {"field": "properties.Name", "type": "nominal", "title": "State"},
+          {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
+        ]
+      }
     }
-  ]}
-  ],
+    ]
+    
+  ,
   
   "params": [
     {

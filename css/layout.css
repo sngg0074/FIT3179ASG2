@@ -15,7 +15,7 @@ body {
 
 .page {
     width: 1300px;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.957);
     margin: auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -145,4 +145,16 @@ body {
 .section-break {
     border: 2px solid #1b5fff; /* Set the line thickness and color */
     margin: 20px 0; /* Add some space above and below the line */
+}
+
+#vis1 {
+    margin-left: auto;  /* Set left margin to "auto" */
+    margin-right: auto; /* Set right margin to "auto" */
+  }
+
+  .GraphParagrapgh{
+    color: black;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 22px;
+    word-spacing: 2px;
 }
