@@ -1,92 +1,4 @@
 Year,State,Sector,Total
-2015,Johor,Accommodation and food service activities,687
-2016,Johor,Accommodation and food service activities,677
-2017,Johor,Accommodation and food service activities,618
-2016,Perak,Accommodation and food service activities,486
-2015,Sarawak,Accommodation and food service activities,471
-2016,Selangor,Accommodation and food service activities,442
-2015,Selangor,Accommodation and food service activities,411
-2016,Sarawak,Accommodation and food service activities,395
-2016,Pulau Pinang,Accommodation and food service activities,350
-2015,Perak,Accommodation and food service activities,347
-2015,Pulau Pinang,Accommodation and food service activities,347
-2015,Kuala Lumpur ,Accommodation and food service activities,329
-2016,Kuala Lumpur ,Accommodation and food service activities,317
-2017,Perak,Accommodation and food service activities,303
-2015,Sabah,Accommodation and food service activities,296
-2017,Selangor,Accommodation and food service activities,296
-2016,Kedah,Accommodation and food service activities,283
-2017,Sarawak,Accommodation and food service activities,282
-2017,Pulau Pinang,Accommodation and food service activities,263
-2015,Pahang,Accommodation and food service activities,227
-2017,Kuala Lumpur ,Accommodation and food service activities,224
-2016,Sabah,Accommodation and food service activities,223
-2017,Sabah,Accommodation and food service activities,216
-2015,Kedah,Accommodation and food service activities,208
-2016,Pahang,Accommodation and food service activities,197
-2017,Pahang,Accommodation and food service activities,187
-2017,Kedah,Accommodation and food service activities,185
-2016,Melaka,Accommodation and food service activities,157
-2017,Terengganu,Accommodation and food service activities,139
-2015,Negeri Sembilan,Accommodation and food service activities,106
-2015,Terengganu,Accommodation and food service activities,95
-2017,Negeri Sembilan,Accommodation and food service activities,87
-2016,Negeri Sembilan,Accommodation and food service activities,74
-2016,Terengganu,Accommodation and food service activities,62
-2017,Melaka,Accommodation and food service activities,61
-2015,Melaka,Accommodation and food service activities,57
-2016,Perlis,Accommodation and food service activities,49
-2016,Kelantan,Accommodation and food service activities,44
-2015,Kelantan,Accommodation and food service activities,38
-2015,Perlis,Accommodation and food service activities,32
-2015,Labuan,Accommodation and food service activities,24
-2017,Kelantan,Accommodation and food service activities,21
-2016,Labuan,Accommodation and food service activities,21
-2017,Labuan,Accommodation and food service activities,15
-2017,Perlis,Accommodation and food service activities,5
-2016,Kuala Lumpur ,Administrative and support service activities,206
-2015,Kuala Lumpur ,Administrative and support service activities,176
-2016,Selangor,Administrative and support service activities,171
-2017,Selangor,Administrative and support service activities,167
-2017,Kuala Lumpur ,Administrative and support service activities,137
-2015,Pulau Pinang,Administrative and support service activities,126
-2015,Selangor,Administrative and support service activities,114
-2016,Pulau Pinang,Administrative and support service activities,102
-2017,Pulau Pinang,Administrative and support service activities,88
-2015,Sabah,Administrative and support service activities,62
-2015,Johor,Administrative and support service activities,51
-2016,Sarawak,Administrative and support service activities,48
-2015,Negeri Sembilan,Administrative and support service activities,42
-2016,Perak,Administrative and support service activities,42
-2015,Sarawak,Administrative and support service activities,37
-2017,Sarawak,Administrative and support service activities,37
-2016,Johor,Administrative and support service activities,35
-2015,Perak,Administrative and support service activities,31
-2017,Negeri Sembilan,Administrative and support service activities,25
-2017,Perak,Administrative and support service activities,25
-2017,Johor,Administrative and support service activities,22
-2015,Pahang,Administrative and support service activities,18
-2017,Kedah,Administrative and support service activities,16
-2017,Sabah,Administrative and support service activities,14
-2015,Kedah,Administrative and support service activities,13
-2016,Negeri Sembilan,Administrative and support service activities,13
-2016,Sabah,Administrative and support service activities,12
-2016,Kedah,Administrative and support service activities,10
-2016,Pahang,Administrative and support service activities,10
-2016,Terengganu,Administrative and support service activities,9
-2015,Terengganu,Administrative and support service activities,7
-2016,Melaka,Administrative and support service activities,6
-2017,Terengganu,Administrative and support service activities,5
-2015,Labuan,Administrative and support service activities,5
-2016,Labuan,Administrative and support service activities,5
-2015,Melaka,Administrative and support service activities,4
-2017,Melaka,Administrative and support service activities,4
-2017,Pahang,Administrative and support service activities,3
-2015,Perlis,Administrative and support service activities,3
-2017,Labuan,Administrative and support service activities,3
-2015,Kelantan,Administrative and support service activities,1
-2016,Kelantan,Administrative and support service activities,1
-2017,Kelantan,Administrative and support service activities,1
 2015,Sarawak,"Agriculture, forestry and fishing",135
 2016,Sarawak,"Agriculture, forestry and fishing",77
 2015,Perak,"Agriculture, forestry and fishing",67
@@ -215,113 +127,6 @@ Year,State,Sector,Total
 2016,Kelantan,Construction,3
 2015,Labuan,Construction,2
 2016,Labuan,Construction,1
-2015,Kedah,"Electricity, gas, steam and air conditioning supply",11
-2015,Pahang,"Electricity, gas, steam and air conditioning supply",8
-2015,Sabah,"Electricity, gas, steam and air conditioning supply",5
-2015,Sarawak,"Electricity, gas, steam and air conditioning supply",5
-2016,Selangor,"Electricity, gas, steam and air conditioning supply",5
-2017,Selangor,"Electricity, gas, steam and air conditioning supply",5
-2015,Johor,"Electricity, gas, steam and air conditioning supply",4
-2016,Pulau Pinang,"Electricity, gas, steam and air conditioning supply",3
-2015,Selangor,"Electricity, gas, steam and air conditioning supply",3
-2015,Kuala Lumpur ,"Electricity, gas, steam and air conditioning supply",3
-2017,Kedah,"Electricity, gas, steam and air conditioning supply",2
-2015,Perak,"Electricity, gas, steam and air conditioning supply",2
-2016,Perak,"Electricity, gas, steam and air conditioning supply",2
-2017,Sabah,"Electricity, gas, steam and air conditioning supply",2
-2016,Sarawak,"Electricity, gas, steam and air conditioning supply",2
-2017,Kuala Lumpur ,"Electricity, gas, steam and air conditioning supply",2
-2015,Labuan,"Electricity, gas, steam and air conditioning supply",2
-2017,Labuan,"Electricity, gas, steam and air conditioning supply",2
-2017,Johor,"Electricity, gas, steam and air conditioning supply",1
-2016,Kedah,"Electricity, gas, steam and air conditioning supply",1
-2015,Melaka,"Electricity, gas, steam and air conditioning supply",1
-2017,Melaka,"Electricity, gas, steam and air conditioning supply",1
-2017,Negeri Sembilan,"Electricity, gas, steam and air conditioning supply",1
-2016,Pahang,"Electricity, gas, steam and air conditioning supply",1
-2017,Pulau Pinang,"Electricity, gas, steam and air conditioning supply",1
-2017,Sarawak,"Electricity, gas, steam and air conditioning supply",1
-2016,Selangor,Financial and insurance/takaful activities,97
-2015,Kuala Lumpur ,Financial and insurance/takaful activities,95
-2016,Kuala Lumpur ,Financial and insurance/takaful activities,91
-2016,Sarawak,Financial and insurance/takaful activities,81
-2015,Selangor,Financial and insurance/takaful activities,68
-2015,Johor,Financial and insurance/takaful activities,67
-2016,Johor,Financial and insurance/takaful activities,65
-2017,Kuala Lumpur ,Financial and insurance/takaful activities,62
-2015,Sarawak,Financial and insurance/takaful activities,61
-2015,Sabah,Financial and insurance/takaful activities,54
-2015,Pulau Pinang,Financial and insurance/takaful activities,53
-2017,Sarawak,Financial and insurance/takaful activities,52
-2017,Johor,Financial and insurance/takaful activities,49
-2015,Perak,Financial and insurance/takaful activities,48
-2016,Pulau Pinang,Financial and insurance/takaful activities,43
-2017,Pulau Pinang,Financial and insurance/takaful activities,41
-2016,Perak,Financial and insurance/takaful activities,39
-2017,Selangor,Financial and insurance/takaful activities,39
-2016,Sabah,Financial and insurance/takaful activities,33
-2017,Labuan,Financial and insurance/takaful activities,26
-2015,Kedah,Financial and insurance/takaful activities,24
-2017,Sabah,Financial and insurance/takaful activities,24
-2017,Perak,Financial and insurance/takaful activities,21
-2015,Labuan,Financial and insurance/takaful activities,21
-2016,Labuan,Financial and insurance/takaful activities,19
-2017,Negeri Sembilan,Financial and insurance/takaful activities,17
-2015,Pahang,Financial and insurance/takaful activities,17
-2016,Negeri Sembilan,Financial and insurance/takaful activities,16
-2016,Pahang,Financial and insurance/takaful activities,16
-2016,Kedah,Financial and insurance/takaful activities,15
-2017,Kedah,Financial and insurance/takaful activities,15
-2016,Melaka,Financial and insurance/takaful activities,13
-2015,Negeri Sembilan,Financial and insurance/takaful activities,13
-2016,Terengganu,Financial and insurance/takaful activities,10
-2017,Melaka,Financial and insurance/takaful activities,8
-2015,Terengganu,Financial and insurance/takaful activities,8
-2017,Terengganu,Financial and insurance/takaful activities,6
-2016,Kelantan,Financial and insurance/takaful activities,4
-2017,Pahang,Financial and insurance/takaful activities,4
-2016,Perlis,Financial and insurance/takaful activities,4
-2015,Kelantan,Financial and insurance/takaful activities,3
-2017,Kelantan,Financial and insurance/takaful activities,3
-2015,Melaka,Financial and insurance/takaful activities,1
-2017,Perlis,Financial and insurance/takaful activities,1
-2016,Selangor,Human health and social work activities,83
-2015,Johor,Human health and social work activities,46
-2016,Johor,Human health and social work activities,29
-2017,Johor,Human health and social work activities,28
-2015,Selangor,Human health and social work activities,26
-2017,Selangor,Human health and social work activities,23
-2016,Kuala Lumpur ,Human health and social work activities,22
-2017,Pulau Pinang,Human health and social work activities,21
-2016,Sarawak,Human health and social work activities,13
-2015,Perak,Human health and social work activities,12
-2015,Sarawak,Human health and social work activities,12
-2017,Sarawak,Human health and social work activities,12
-2015,Pulau Pinang,Human health and social work activities,11
-2017,Kuala Lumpur ,Human health and social work activities,10
-2015,Pahang,Human health and social work activities,8
-2015,Sabah,Human health and social work activities,8
-2016,Kedah,Human health and social work activities,7
-2015,Negeri Sembilan,Human health and social work activities,7
-2016,Pahang,Human health and social work activities,7
-2016,Perak,Human health and social work activities,6
-2015,Kuala Lumpur ,Human health and social work activities,6
-2015,Kedah,Human health and social work activities,4
-2016,Negeri Sembilan,Human health and social work activities,3
-2016,Pulau Pinang,Human health and social work activities,3
-2017,Kedah,Human health and social work activities,2
-2017,Kelantan,Human health and social work activities,2
-2016,Melaka,Human health and social work activities,2
-2017,Pahang,Human health and social work activities,2
-2017,Terengganu,Human health and social work activities,2
-2016,Labuan,Human health and social work activities,2
-2015,Melaka,Human health and social work activities,1
-2017,Melaka,Human health and social work activities,1
-2017,Negeri Sembilan,Human health and social work activities,1
-2017,Perak,Human health and social work activities,1
-2016,Sabah,Human health and social work activities,1
-2017,Sabah,Human health and social work activities,1
-2016,Terengganu,Human health and social work activities,1
 2015,Selangor,Information and communication,334
 2016,Selangor,Information and communication,234
 2015,Kuala Lumpur ,Information and communication,205
@@ -412,297 +217,92 @@ Year,State,Sector,Total
 2016,Perlis,Manufacturing,8
 2016,Labuan,Manufacturing,7
 2015,Perlis,Manufacturing,6
-2015,Pahang,Mining and quarrying,49
-2015,Kuala Lumpur ,Mining and quarrying,27
-2015,Selangor,Mining and quarrying,19
-2016,Kuala Lumpur ,Mining and quarrying,15
-2017,Perak,Mining and quarrying,14
-2015,Sarawak,Mining and quarrying,14
-2017,Kuala Lumpur ,Mining and quarrying,14
-2016,Pahang,Mining and quarrying,13
-2017,Selangor,Mining and quarrying,13
-2015,Perak,Mining and quarrying,12
-2016,Johor,Mining and quarrying,11
-2017,Sabah,Mining and quarrying,11
-2017,Kedah,Mining and quarrying,10
-2016,Perak,Mining and quarrying,10
-2016,Sarawak,Mining and quarrying,10
-2015,Terengganu,Mining and quarrying,10
-2015,Sabah,Mining and quarrying,8
-2015,Johor,Mining and quarrying,7
-2016,Sabah,Mining and quarrying,7
-2017,Pulau Pinang,Mining and quarrying,6
-2016,Selangor,Mining and quarrying,6
-2015,Kedah,Mining and quarrying,5
-2017,Kelantan,Mining and quarrying,5
-2015,Negeri Sembilan,Mining and quarrying,5
-2016,Terengganu,Mining and quarrying,5
-2017,Pahang,Mining and quarrying,4
-2016,Pulau Pinang,Mining and quarrying,4
-2017,Sarawak,Mining and quarrying,4
-2017,Terengganu,Mining and quarrying,4
-2017,Johor,Mining and quarrying,3
-2016,Kedah,Mining and quarrying,3
-2015,Kelantan,Mining and quarrying,3
-2016,Negeri Sembilan,Mining and quarrying,3
-2015,Pulau Pinang,Mining and quarrying,3
-2016,Kelantan,Mining and quarrying,2
-2017,Negeri Sembilan,Mining and quarrying,2
-2017,Melaka,Mining and quarrying,1
-2015,Perlis,Mining and quarrying,1
-2016,Labuan,Mining and quarrying,1
-2015,Johor,"Professional, scientific and technical activities",434
-2015,Pulau Pinang,"Professional, scientific and technical activities",319
-2016,Selangor,"Professional, scientific and technical activities",260
-2016,Johor,"Professional, scientific and technical activities",248
-2015,Selangor,"Professional, scientific and technical activities",245
-2015,Kuala Lumpur ,"Professional, scientific and technical activities",230
-2017,Johor,"Professional, scientific and technical activities",213
-2016,Kuala Lumpur ,"Professional, scientific and technical activities",190
-2017,Pulau Pinang,"Professional, scientific and technical activities",139
-2016,Pulau Pinang,"Professional, scientific and technical activities",130
-2017,Selangor,"Professional, scientific and technical activities",120
-2017,Kuala Lumpur ,"Professional, scientific and technical activities",97
-2015,Sarawak,"Professional, scientific and technical activities",70
-2016,Sarawak,"Professional, scientific and technical activities",62
-2015,Negeri Sembilan,"Professional, scientific and technical activities",57
-2016,Perak,"Professional, scientific and technical activities",56
-2015,Perak,"Professional, scientific and technical activities",54
-2017,Sarawak,"Professional, scientific and technical activities",43
-2017,Perak,"Professional, scientific and technical activities",35
-2015,Kedah,"Professional, scientific and technical activities",34
-2015,Pahang,"Professional, scientific and technical activities",31
-2015,Sabah,"Professional, scientific and technical activities",31
-2016,Negeri Sembilan,"Professional, scientific and technical activities",30
-2016,Melaka,"Professional, scientific and technical activities",29
-2016,Kedah,"Professional, scientific and technical activities",27
-2017,Negeri Sembilan,"Professional, scientific and technical activities",23
-2017,Kedah,"Professional, scientific and technical activities",21
-2016,Pahang,"Professional, scientific and technical activities",15
-2015,Terengganu,"Professional, scientific and technical activities",15
-2017,Sabah,"Professional, scientific and technical activities",14
-2015,Melaka,"Professional, scientific and technical activities",13
-2016,Terengganu,"Professional, scientific and technical activities",13
-2017,Terengganu,"Professional, scientific and technical activities",13
-2017,Pahang,"Professional, scientific and technical activities",12
-2016,Sabah,"Professional, scientific and technical activities",10
-2017,Melaka,"Professional, scientific and technical activities",8
-2016,Kelantan,"Professional, scientific and technical activities",7
-2015,Kelantan,"Professional, scientific and technical activities",3
-2015,Perlis,"Professional, scientific and technical activities",3
-2016,Perlis,"Professional, scientific and technical activities",3
-2015,Labuan,"Professional, scientific and technical activities",3
-2017,Kelantan,"Professional, scientific and technical activities",1
-2016,Labuan,"Professional, scientific and technical activities",1
-2017,Labuan,"Professional, scientific and technical activities",1
-2016,Selangor,Public administration and defence; compulsory social security,442
-2015,Selangor,Public administration and defence; compulsory social security,309
-2016,Johor,Public administration and defence; compulsory social security,279
-2015,Johor,Public administration and defence; compulsory social security,262
-2016,Pulau Pinang,Public administration and defence; compulsory social security,250
-2017,Selangor,Public administration and defence; compulsory social security,237
-2016,Kuala Lumpur ,Public administration and defence; compulsory social security,210
-2017,Johor,Public administration and defence; compulsory social security,198
-2016,Perak,Public administration and defence; compulsory social security,180
-2016,Kedah,Public administration and defence; compulsory social security,178
-2015,Kuala Lumpur ,Public administration and defence; compulsory social security,177
-2015,Pulau Pinang,Public administration and defence; compulsory social security,168
-2017,Perak,Public administration and defence; compulsory social security,166
-2015,Perak,Public administration and defence; compulsory social security,151
-2015,Sarawak,Public administration and defence; compulsory social security,147
-2017,Kuala Lumpur ,Public administration and defence; compulsory social security,146
-2017,Pulau Pinang,Public administration and defence; compulsory social security,140
-2015,Kedah,Public administration and defence; compulsory social security,117
-2016,Sarawak,Public administration and defence; compulsory social security,116
-2017,Kedah,Public administration and defence; compulsory social security,98
-2015,Negeri Sembilan,Public administration and defence; compulsory social security,97
-2015,Terengganu,Public administration and defence; compulsory social security,92
-2016,Negeri Sembilan,Public administration and defence; compulsory social security,82
-2015,Pahang,Public administration and defence; compulsory social security,73
-2017,Negeri Sembilan,Public administration and defence; compulsory social security,72
-2015,Sabah,Public administration and defence; compulsory social security,71
-2016,Melaka,Public administration and defence; compulsory social security,67
-2016,Terengganu,Public administration and defence; compulsory social security,67
-2017,Sarawak,Public administration and defence; compulsory social security,55
-2017,Sabah,Public administration and defence; compulsory social security,53
-2017,Melaka,Public administration and defence; compulsory social security,51
-2016,Pahang,Public administration and defence; compulsory social security,47
-2015,Melaka,Public administration and defence; compulsory social security,40
-2016,Sabah,Public administration and defence; compulsory social security,37
-2017,Terengganu,Public administration and defence; compulsory social security,36
-2016,Kelantan,Public administration and defence; compulsory social security,26
-2017,Pahang,Public administration and defence; compulsory social security,25
-2015,Kelantan,Public administration and defence; compulsory social security,15
-2015,Perlis,Public administration and defence; compulsory social security,14
-2016,Perlis,Public administration and defence; compulsory social security,14
-2017,Perlis,Public administration and defence; compulsory social security,7
-2015,Labuan,Public administration and defence; compulsory social security,6
-2017,Kelantan,Public administration and defence; compulsory social security,3
-2016,Labuan,Public administration and defence; compulsory social security,1
-2017,Labuan,Public administration and defence; compulsory social security,1
-2015,Sarawak,Real estate activities,61
-2015,Sabah,Real estate activities,55
-2016,Sabah,Real estate activities,51
-2015,Kuala Lumpur ,Real estate activities,51
-2016,Sarawak,Real estate activities,49
-2016,Johor,Real estate activities,48
-2015,Selangor,Real estate activities,38
-2015,Johor,Real estate activities,34
-2016,Selangor,Real estate activities,33
-2017,Johor,Real estate activities,26
-2017,Sabah,Real estate activities,23
-2017,Sarawak,Real estate activities,22
-2017,Selangor,Real estate activities,21
-2016,Perak,Real estate activities,20
-2016,Kuala Lumpur ,Real estate activities,18
-2015,Pahang,Real estate activities,16
-2017,Perak,Real estate activities,15
-2016,Pulau Pinang,Real estate activities,13
-2017,Kedah,Real estate activities,10
-2015,Negeri Sembilan,Real estate activities,10
-2017,Pulau Pinang,Real estate activities,10
-2015,Kelantan,Real estate activities,9
-2017,Kuala Lumpur ,Real estate activities,9
-2015,Pulau Pinang,Real estate activities,8
-2016,Pahang,Real estate activities,7
-2016,Negeri Sembilan,Real estate activities,6
-2015,Kedah,Real estate activities,5
-2017,Pahang,Real estate activities,4
-2015,Perak,Real estate activities,4
-2016,Terengganu,Real estate activities,4
-2016,Kedah,Real estate activities,2
-2016,Kelantan,Real estate activities,2
-2015,Terengganu,Real estate activities,2
-2017,Kelantan,Real estate activities,1
-2015,Melaka,Real estate activities,1
-2017,Negeri Sembilan,Real estate activities,1
-2015,Sarawak,Transportation and storage,225
-2016,Sarawak,Transportation and storage,186
-2017,Johor,Transportation and storage,163
-2016,Johor,Transportation and storage,158
-2015,Selangor,Transportation and storage,128
-2016,Selangor,Transportation and storage,115
-2015,Johor,Transportation and storage,111
-2017,Sarawak,Transportation and storage,102
-2015,Perak,Transportation and storage,96
-2015,Pulau Pinang,Transportation and storage,94
-2017,Selangor,Transportation and storage,88
-2016,Perak,Transportation and storage,86
-2015,Sabah,Transportation and storage,82
-2015,Pahang,Transportation and storage,73
-2017,Pulau Pinang,Transportation and storage,70
-2015,Negeri Sembilan,Transportation and storage,68
-2017,Perak,Transportation and storage,61
-2016,Pulau Pinang,Transportation and storage,61
-2017,Sabah,Transportation and storage,55
-2016,Sabah,Transportation and storage,48
-2016,Kuala Lumpur ,Transportation and storage,43
-2015,Kuala Lumpur ,Transportation and storage,40
-2016,Negeri Sembilan,Transportation and storage,37
-2016,Pahang,Transportation and storage,36
-2015,Kedah,Transportation and storage,32
-2017,Kuala Lumpur ,Transportation and storage,30
-2017,Negeri Sembilan,Transportation and storage,26
-2016,Kedah,Transportation and storage,19
-2017,Kedah,Transportation and storage,13
-2015,Terengganu,Transportation and storage,13
-2017,Pahang,Transportation and storage,11
-2016,Terengganu,Transportation and storage,11
-2016,Labuan,Transportation and storage,11
-2017,Terengganu,Transportation and storage,9
-2016,Kelantan,Transportation and storage,8
-2016,Melaka,Transportation and storage,8
-2015,Labuan,Transportation and storage,8
-2017,Labuan,Transportation and storage,7
-2015,Melaka,Transportation and storage,6
-2017,Melaka,Transportation and storage,3
-2015,Perlis,Transportation and storage,3
-2015,Kelantan,Transportation and storage,1
-2016,Perlis,Transportation and storage,1
-2016,Selangor,"Water supply, sewerage, waste management and remediation activities",116
-2015,Selangor,"Water supply, sewerage, waste management and remediation activities",91
-2016,Kuala Lumpur ,"Water supply, sewerage, waste management and remediation activities",88
-2015,Johor,"Water supply, sewerage, waste management and remediation activities",40
-2015,Kuala Lumpur ,"Water supply, sewerage, waste management and remediation activities",35
-2015,Pulau Pinang,"Water supply, sewerage, waste management and remediation activities",32
-2017,Pulau Pinang,"Water supply, sewerage, waste management and remediation activities",26
-2017,Selangor,"Water supply, sewerage, waste management and remediation activities",26
-2016,Johor,"Water supply, sewerage, waste management and remediation activities",24
-2015,Perak,"Water supply, sewerage, waste management and remediation activities",24
-2016,Pulau Pinang,"Water supply, sewerage, waste management and remediation activities",23
-2015,Kedah,"Water supply, sewerage, waste management and remediation activities",21
-2016,Kedah,"Water supply, sewerage, waste management and remediation activities",21
-2016,Perak,"Water supply, sewerage, waste management and remediation activities",21
-2017,Sabah,"Water supply, sewerage, waste management and remediation activities",21
-2017,Kuala Lumpur ,"Water supply, sewerage, waste management and remediation activities",19
-2016,Negeri Sembilan,"Water supply, sewerage, waste management and remediation activities",18
-2016,Sarawak,"Water supply, sewerage, waste management and remediation activities",17
-2015,Negeri Sembilan,"Water supply, sewerage, waste management and remediation activities",15
-2015,Pahang,"Water supply, sewerage, waste management and remediation activities",14
-2015,Sabah,"Water supply, sewerage, waste management and remediation activities",14
-2015,Sarawak,"Water supply, sewerage, waste management and remediation activities",14
-2017,Kedah,"Water supply, sewerage, waste management and remediation activities",13
-2017,Perak,"Water supply, sewerage, waste management and remediation activities",13
-2016,Sabah,"Water supply, sewerage, waste management and remediation activities",9
-2016,Pahang,"Water supply, sewerage, waste management and remediation activities",7
-2017,Terengganu,"Water supply, sewerage, waste management and remediation activities",7
-2017,Melaka,"Water supply, sewerage, waste management and remediation activities",6
-2016,Melaka,"Water supply, sewerage, waste management and remediation activities",5
-2017,Johor,"Water supply, sewerage, waste management and remediation activities",4
-2017,Negeri Sembilan,"Water supply, sewerage, waste management and remediation activities",4
-2017,Pahang,"Water supply, sewerage, waste management and remediation activities",4
-2017,Kelantan,"Water supply, sewerage, waste management and remediation activities",3
-2015,Perlis,"Water supply, sewerage, waste management and remediation activities",3
-2017,Sarawak,"Water supply, sewerage, waste management and remediation activities",3
-2016,Terengganu,"Water supply, sewerage, waste management and remediation activities",2
-2015,Labuan,"Water supply, sewerage, waste management and remediation activities",2
-2017,Labuan,"Water supply, sewerage, waste management and remediation activities",2
-2015,Kelantan,"Water supply, sewerage, waste management and remediation activities",1
-2015,Melaka,"Water supply, sewerage, waste management and remediation activities",1
-2015,Terengganu,"Water supply, sewerage, waste management and remediation activities",1
-2016,Labuan,"Water supply, sewerage, waste management and remediation activities",1
-2015,Sabah,Wholesale and retail trade; repair of motor vehicles and motorcycles,1294
-2015,Johor,Wholesale and retail trade; repair of motor vehicles and motorcycles,1272
-2015,Selangor,Wholesale and retail trade; repair of motor vehicles and motorcycles,1247
-2016,Selangor,Wholesale and retail trade; repair of motor vehicles and motorcycles,1207
-2017,Sarawak,Wholesale and retail trade; repair of motor vehicles and motorcycles,1127
-2016,Sarawak,Wholesale and retail trade; repair of motor vehicles and motorcycles,1113
-2015,Sarawak,Wholesale and retail trade; repair of motor vehicles and motorcycles,1088
-2015,Pulau Pinang,Wholesale and retail trade; repair of motor vehicles and motorcycles,1042
-2016,Johor,Wholesale and retail trade; repair of motor vehicles and motorcycles,886
-2015,Kuala Lumpur ,Wholesale and retail trade; repair of motor vehicles and motorcycles,877
-2015,Perak,Wholesale and retail trade; repair of motor vehicles and motorcycles,746
-2017,Selangor,Wholesale and retail trade; repair of motor vehicles and motorcycles,724
-2017,Johor,Wholesale and retail trade; repair of motor vehicles and motorcycles,718
-2016,Kuala Lumpur ,Wholesale and retail trade; repair of motor vehicles and motorcycles,671
-2016,Perak,Wholesale and retail trade; repair of motor vehicles and motorcycles,615
-2016,Sabah,Wholesale and retail trade; repair of motor vehicles and motorcycles,604
-2015,Pahang,Wholesale and retail trade; repair of motor vehicles and motorcycles,498
-2017,Perak,Wholesale and retail trade; repair of motor vehicles and motorcycles,494
-2017,Sabah,Wholesale and retail trade; repair of motor vehicles and motorcycles,480
-2015,Negeri Sembilan,Wholesale and retail trade; repair of motor vehicles and motorcycles,442
-2017,Pulau Pinang,Wholesale and retail trade; repair of motor vehicles and motorcycles,418
-2015,Terengganu,Wholesale and retail trade; repair of motor vehicles and motorcycles,416
-2016,Pulau Pinang,Wholesale and retail trade; repair of motor vehicles and motorcycles,342
-2015,Kedah,Wholesale and retail trade; repair of motor vehicles and motorcycles,299
-2016,Pahang,Wholesale and retail trade; repair of motor vehicles and motorcycles,256
-2016,Terengganu,Wholesale and retail trade; repair of motor vehicles and motorcycles,244
-2017,Kuala Lumpur ,Wholesale and retail trade; repair of motor vehicles and motorcycles,234
-2016,Kedah,Wholesale and retail trade; repair of motor vehicles and motorcycles,229
-2017,Kedah,Wholesale and retail trade; repair of motor vehicles and motorcycles,225
-2016,Melaka,Wholesale and retail trade; repair of motor vehicles and motorcycles,220
-2017,Negeri Sembilan,Wholesale and retail trade; repair of motor vehicles and motorcycles,206
-2016,Negeri Sembilan,Wholesale and retail trade; repair of motor vehicles and motorcycles,162
-2015,Kelantan,Wholesale and retail trade; repair of motor vehicles and motorcycles,130
-2017,Pahang,Wholesale and retail trade; repair of motor vehicles and motorcycles,127
-2017,Terengganu,Wholesale and retail trade; repair of motor vehicles and motorcycles,112
-2015,Perlis,Wholesale and retail trade; repair of motor vehicles and motorcycles,85
-2016,Kelantan,Wholesale and retail trade; repair of motor vehicles and motorcycles,57
-2016,Perlis,Wholesale and retail trade; repair of motor vehicles and motorcycles,54
-2016,Labuan,Wholesale and retail trade; repair of motor vehicles and motorcycles,54
-2017,Melaka,Wholesale and retail trade; repair of motor vehicles and motorcycles,45
-2017,Kelantan,Wholesale and retail trade; repair of motor vehicles and motorcycles,42
-2015,Labuan,Wholesale and retail trade; repair of motor vehicles and motorcycles,39
-2015,Melaka,Wholesale and retail trade; repair of motor vehicles and motorcycles,33
-2017,Labuan,Wholesale and retail trade; repair of motor vehicles and motorcycles,27
-2017,Perlis,Wholesale and retail trade; repair of motor vehicles and motorcycles,5
+2015,Johor,"Professional, scientific and technical",434
+2015,Pulau Pinang,"Professional, scientific and technical",319
+2016,Selangor,"Professional, scientific and technical",260
+2016,Johor,"Professional, scientific and technical",248
+2015,Selangor,"Professional, scientific and technical",245
+2015,Kuala Lumpur ,"Professional, scientific and technical",230
+2017,Johor,"Professional, scientific and technical",213
+2016,Kuala Lumpur ,"Professional, scientific and technical",190
+2017,Pulau Pinang,"Professional, scientific and technical",139
+2016,Pulau Pinang,"Professional, scientific and technical",130
+2017,Selangor,"Professional, scientific and technical",120
+2017,Kuala Lumpur ,"Professional, scientific and technical",97
+2015,Sarawak,"Professional, scientific and technical",70
+2016,Sarawak,"Professional, scientific and technical",62
+2015,Negeri Sembilan,"Professional, scientific and technical",57
+2016,Perak,"Professional, scientific and technical",56
+2015,Perak,"Professional, scientific and technical",54
+2017,Sarawak,"Professional, scientific and technical",43
+2017,Perak,"Professional, scientific and technical",35
+2015,Kedah,"Professional, scientific and technical",34
+2015,Pahang,"Professional, scientific and technical",31
+2015,Sabah,"Professional, scientific and technical",31
+2016,Negeri Sembilan,"Professional, scientific and technical",30
+2016,Melaka,"Professional, scientific and technical",29
+2016,Kedah,"Professional, scientific and technical",27
+2017,Negeri Sembilan,"Professional, scientific and technical",23
+2017,Kedah,"Professional, scientific and technical",21
+2016,Pahang,"Professional, scientific and technical",15
+2015,Terengganu,"Professional, scientific and technical",15
+2017,Sabah,"Professional, scientific and technical",14
+2015,Melaka,"Professional, scientific and technical",13
+2016,Terengganu,"Professional, scientific and technical",13
+2017,Terengganu,"Professional, scientific and technical",13
+2017,Pahang,"Professional, scientific and technical",12
+2016,Sabah,"Professional, scientific and technical",10
+2017,Melaka,"Professional, scientific and technical",8
+2016,Kelantan,"Professional, scientific and technical",7
+2015,Kelantan,"Professional, scientific and technical",3
+2015,Perlis,"Professional, scientific and technical",3
+2016,Perlis,"Professional, scientific and technical",3
+2015,Labuan,"Professional, scientific and technical",3
+2017,Kelantan,"Professional, scientific and technical",1
+2016,Labuan,"Professional, scientific and technical",1
+2017,Labuan,"Professional, scientific and technical",1
+2015,Sabah,Wholesale and retail trade,1294
+2015,Johor,Wholesale and retail trade,1272
+2015,Selangor,Wholesale and retail trade,1247
+2016,Selangor,Wholesale and retail trade,1207
+2017,Sarawak,Wholesale and retail trade,1127
+2016,Sarawak,Wholesale and retail trade,1113
+2015,Sarawak,Wholesale and retail trade,1088
+2015,Pulau Pinang,Wholesale and retail trade,1042
+2016,Johor,Wholesale and retail trade,886
+2015,Kuala Lumpur ,Wholesale and retail trade,877
+2015,Perak,Wholesale and retail trade,746
+2017,Selangor,Wholesale and retail trade,724
+2017,Johor,Wholesale and retail trade,718
+2016,Kuala Lumpur ,Wholesale and retail trade,671
+2016,Perak,Wholesale and retail trade,615
+2016,Sabah,Wholesale and retail trade,604
+2015,Pahang,Wholesale and retail trade,498
+2017,Perak,Wholesale and retail trade,494
+2017,Sabah,Wholesale and retail trade,480
+2015,Negeri Sembilan,Wholesale and retail trade,442
+2017,Pulau Pinang,Wholesale and retail trade,418
+2015,Terengganu,Wholesale and retail trade,416
+2016,Pulau Pinang,Wholesale and retail trade,342
+2015,Kedah,Wholesale and retail trade,299
+2016,Pahang,Wholesale and retail trade,256
+2016,Terengganu,Wholesale and retail trade,244
+2017,Kuala Lumpur ,Wholesale and retail trade,234
+2016,Kedah,Wholesale and retail trade,229
+2017,Kedah,Wholesale and retail trade,225
+2016,Melaka,Wholesale and retail trade,220
+2017,Negeri Sembilan,Wholesale and retail trade,206
+2016,Negeri Sembilan,Wholesale and retail trade,162
+2015,Kelantan,Wholesale and retail trade,130
+2017,Pahang,Wholesale and retail trade,127
+2017,Terengganu,Wholesale and retail trade,112
+2015,Perlis,Wholesale and retail trade,85
+2016,Kelantan,Wholesale and retail trade,57
+2016,Perlis,Wholesale and retail trade,54
+2016,Labuan,Wholesale and retail trade,54
+2017,Melaka,Wholesale and retail trade,45
+2017,Kelantan,Wholesale and retail trade,42
+2015,Labuan,Wholesale and retail trade,39
+2015,Melaka,Wholesale and retail trade,33
+2017,Labuan,Wholesale and retail trade,27
+2017,Perlis,Wholesale and retail trade,5
