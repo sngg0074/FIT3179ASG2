@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Intentional Homicide Cases in Malaysian States",
-  "width": 500,
+  "width": 600,
   "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
@@ -9,7 +9,7 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "State", "type": "ordinal"},
-    "y": {"field": "Total", "type": "quantitative","scale": {"domain": [0, 10000]}},
+    "y": {"field": "Total", "type": "quantitative","scale": {"domain": [0, 8000]}},
     "color": {"field": "Sector", "type": "nominal", "title": "Sector"}
   },
   "transform": [

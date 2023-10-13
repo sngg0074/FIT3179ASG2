@@ -1,308 +1,166 @@
 Year,State,Sector,Total
-2015,Sarawak,"Agriculture, forestry and fishing",135
-2016,Sarawak,"Agriculture, forestry and fishing",77
-2015,Perak,"Agriculture, forestry and fishing",67
-2015,Pahang,"Agriculture, forestry and fishing",65
-2015,Johor,"Agriculture, forestry and fishing",59
-2015,Sabah,"Agriculture, forestry and fishing",51
-2017,Sarawak,"Agriculture, forestry and fishing",46
-2016,Perak,"Agriculture, forestry and fishing",41
-2016,Johor,"Agriculture, forestry and fishing",40
-2016,Sabah,"Agriculture, forestry and fishing",40
-2016,Pahang,"Agriculture, forestry and fishing",38
-2017,Sabah,"Agriculture, forestry and fishing",36
-2015,Kedah,"Agriculture, forestry and fishing",27
-2017,Johor,"Agriculture, forestry and fishing",26
-2015,Selangor,"Agriculture, forestry and fishing",24
-2016,Kedah,"Agriculture, forestry and fishing",23
-2017,Perak,"Agriculture, forestry and fishing",23
-2015,Pulau Pinang,"Agriculture, forestry and fishing",23
-2017,Kelantan,"Agriculture, forestry and fishing",20
-2016,Pulau Pinang,"Agriculture, forestry and fishing",18
-2017,Pulau Pinang,"Agriculture, forestry and fishing",18
-2017,Kedah,"Agriculture, forestry and fishing",17
-2016,Kelantan,"Agriculture, forestry and fishing",17
-2017,Pahang,"Agriculture, forestry and fishing",17
-2015,Negeri Sembilan,"Agriculture, forestry and fishing",15
-2016,Selangor,"Agriculture, forestry and fishing",15
-2016,Negeri Sembilan,"Agriculture, forestry and fishing",11
-2015,Kelantan,"Agriculture, forestry and fishing",9
-2017,Selangor,"Agriculture, forestry and fishing",9
-2015,Kuala Lumpur ,"Agriculture, forestry and fishing",9
-2016,Terengganu,"Agriculture, forestry and fishing",6
-2017,Melaka,"Agriculture, forestry and fishing",4
-2017,Terengganu,"Agriculture, forestry and fishing",4
-2016,Kuala Lumpur ,"Agriculture, forestry and fishing",4
-2015,Melaka,"Agriculture, forestry and fishing",3
-2017,Negeri Sembilan,"Agriculture, forestry and fishing",3
-2016,Melaka,"Agriculture, forestry and fishing",2
-2015,Terengganu,"Agriculture, forestry and fishing",2
-2016,Labuan,"Agriculture, forestry and fishing",2
-2016,Perlis,"Agriculture, forestry and fishing",1
-2017,Perlis,"Agriculture, forestry and fishing",1
-2017,Kuala Lumpur ,"Agriculture, forestry and fishing",1
-2015,Labuan,"Agriculture, forestry and fishing",1
-2015,Kuala Lumpur ,"Arts, entertainment and recreation",46
-2015,Perak,"Arts, entertainment and recreation",35
-2016,Kuala Lumpur ,"Arts, entertainment and recreation",35
-2015,Pulau Pinang,"Arts, entertainment and recreation",34
-2015,Selangor,"Arts, entertainment and recreation",31
-2016,Selangor,"Arts, entertainment and recreation",31
-2017,Selangor,"Arts, entertainment and recreation",30
-2015,Johor,"Arts, entertainment and recreation",27
-2015,Sabah,"Arts, entertainment and recreation",27
-2016,Pulau Pinang,"Arts, entertainment and recreation",24
-2017,Pulau Pinang,"Arts, entertainment and recreation",24
-2016,Johor,"Arts, entertainment and recreation",21
-2017,Kuala Lumpur ,"Arts, entertainment and recreation",21
-2016,Perak,"Arts, entertainment and recreation",18
-2015,Kedah,"Arts, entertainment and recreation",16
-2015,Sarawak,"Arts, entertainment and recreation",16
-2017,Kedah,"Arts, entertainment and recreation",13
-2017,Johor,"Arts, entertainment and recreation",12
-2015,Pahang,"Arts, entertainment and recreation",10
-2017,Perak,"Arts, entertainment and recreation",10
-2016,Sarawak,"Arts, entertainment and recreation",9
-2017,Sarawak,"Arts, entertainment and recreation",9
-2016,Terengganu,"Arts, entertainment and recreation",9
-2016,Negeri Sembilan,"Arts, entertainment and recreation",8
-2017,Sabah,"Arts, entertainment and recreation",8
-2016,Kedah,"Arts, entertainment and recreation",7
-2016,Sabah,"Arts, entertainment and recreation",7
-2015,Negeri Sembilan,"Arts, entertainment and recreation",6
-2016,Melaka,"Arts, entertainment and recreation",4
-2015,Terengganu,"Arts, entertainment and recreation",4
-2017,Negeri Sembilan,"Arts, entertainment and recreation",3
-2016,Pahang,"Arts, entertainment and recreation",3
-2017,Terengganu,"Arts, entertainment and recreation",3
-2016,Labuan,"Arts, entertainment and recreation",3
-2017,Melaka,"Arts, entertainment and recreation",2
-2017,Pahang,"Arts, entertainment and recreation",2
-2015,Kelantan,"Arts, entertainment and recreation",1
-2016,Kelantan,"Arts, entertainment and recreation",1
-2015,Melaka,"Arts, entertainment and recreation",1
-2015,Labuan,"Arts, entertainment and recreation",1
-2017,Labuan,"Arts, entertainment and recreation",1
-2016,Selangor,Construction,423
-2015,Sabah,Construction,403
 2015,Johor,Construction,395
-2016,Sarawak,Construction,388
-2015,Sarawak,Construction,386
 2016,Johor,Construction,351
-2017,Selangor,Construction,300
 2017,Johor,Construction,289
-2015,Selangor,Construction,243
-2016,Pahang,Construction,210
-2017,Sarawak,Construction,206
-2015,Pahang,Construction,195
-2016,Sabah,Construction,181
-2015,Perak,Construction,174
-2016,Perak,Construction,156
-2017,Perak,Construction,141
-2015,Negeri Sembilan,Construction,112
-2017,Negeri Sembilan,Construction,110
-2015,Kuala Lumpur ,Construction,107
-2016,Kuala Lumpur ,Construction,103
-2017,Sabah,Construction,101
-2017,Terengganu,Construction,97
-2015,Terengganu,Construction,90
-2016,Negeri Sembilan,Construction,73
-2015,Pulau Pinang,Construction,71
-2016,Terengganu,Construction,67
-2017,Kuala Lumpur ,Construction,66
-2016,Pulau Pinang,Construction,58
-2017,Pulau Pinang,Construction,47
-2017,Pahang,Construction,45
 2015,Kedah,Construction,36
 2017,Kedah,Construction,33
 2016,Kedah,Construction,31
+2015,Kuala Lumpur ,Construction,107
+2016,Kuala Lumpur ,Construction,103
+2017,Kuala Lumpur ,Construction,66
 2016,Melaka,Construction,31
-2015,Perlis,Construction,9
-2016,Perlis,Construction,9
-2017,Perlis,Construction,8
 2015,Melaka,Construction,7
-2015,Kelantan,Construction,6
-2017,Kelantan,Construction,6
 2017,Melaka,Construction,6
-2016,Kelantan,Construction,3
-2015,Labuan,Construction,2
-2016,Labuan,Construction,1
-2015,Selangor,Information and communication,334
-2016,Selangor,Information and communication,234
-2015,Kuala Lumpur ,Information and communication,205
-2016,Kuala Lumpur ,Information and communication,172
+2015,Negeri Sembilan,Construction,112
+2017,Negeri Sembilan,Construction,110
+2016,Negeri Sembilan,Construction,73
+2016,Pahang,Construction,210
+2015,Pahang,Construction,195
+2017,Pahang,Construction,45
+2015,Perak,Construction,174
+2016,Perak,Construction,156
+2017,Perak,Construction,141
+2015,Pulau Pinang,Construction,71
+2016,Pulau Pinang,Construction,58
+2017,Pulau Pinang,Construction,47
+2015,Sabah,Construction,403
+2016,Sabah,Construction,181
+2017,Sabah,Construction,101
+2016,Sarawak,Construction,388
+2015,Sarawak,Construction,386
+2017,Sarawak,Construction,206
+2016,Selangor,Construction,423
+2017,Selangor,Construction,300
+2015,Selangor,Construction,243
 2015,Johor,Information and communication,171
 2017,Johor,Information and communication,124
 2016,Johor,Information and communication,120
-2017,Selangor,Information and communication,116
-2017,Kuala Lumpur ,Information and communication,104
-2015,Perak,Information and communication,96
-2015,Sarawak,Information and communication,76
-2016,Perak,Information and communication,73
 2015,Kedah,Information and communication,62
-2017,Pulau Pinang,Information and communication,55
 2016,Kedah,Information and communication,52
-2016,Pulau Pinang,Information and communication,52
-2016,Sarawak,Information and communication,49
-2015,Pulau Pinang,Information and communication,42
-2015,Pahang,Information and communication,41
 2017,Kedah,Information and communication,37
-2017,Perak,Information and communication,37
-2015,Sabah,Information and communication,35
-2016,Pahang,Information and communication,33
+2015,Kuala Lumpur ,Information and communication,205
+2016,Kuala Lumpur ,Information and communication,172
+2017,Kuala Lumpur ,Information and communication,104
+2016,Melaka,Information and communication,24
+2017,Melaka,Information and communication,11
+2015,Melaka,Information and communication,10
 2015,Negeri Sembilan,Information and communication,32
 2016,Negeri Sembilan,Information and communication,28
-2017,Sarawak,Information and communication,27
-2016,Melaka,Information and communication,24
-2016,Sabah,Information and communication,22
 2017,Negeri Sembilan,Information and communication,20
-2017,Terengganu,Information and communication,20
-2016,Terengganu,Information and communication,17
-2017,Sabah,Information and communication,13
-2017,Melaka,Information and communication,11
-2017,Kelantan,Information and communication,10
-2015,Melaka,Information and communication,10
-2016,Kelantan,Information and communication,9
-2015,Kelantan,Information and communication,7
-2016,Perlis,Information and communication,7
+2015,Pahang,Information and communication,41
+2016,Pahang,Information and communication,33
 2017,Pahang,Information and communication,6
-2015,Perlis,Information and communication,6
-2015,Labuan,Information and communication,6
-2015,Terengganu,Information and communication,5
-2016,Labuan,Information and communication,3
-2017,Labuan,Information and communication,3
-2017,Perlis,Information and communication,1
-2016,Selangor,Manufacturing,5250
-2015,Selangor,Manufacturing,5006
-2017,Selangor,Manufacturing,4680
+2015,Perak,Information and communication,96
+2016,Perak,Information and communication,73
+2017,Perak,Information and communication,37
+2017,Pulau Pinang,Information and communication,55
+2016,Pulau Pinang,Information and communication,52
+2015,Pulau Pinang,Information and communication,42
+2015,Sabah,Information and communication,35
+2016,Sabah,Information and communication,22
+2017,Sabah,Information and communication,13
+2015,Sarawak,Information and communication,76
+2016,Sarawak,Information and communication,49
+2017,Sarawak,Information and communication,27
+2015,Selangor,Information and communication,334
+2016,Selangor,Information and communication,234
+2017,Selangor,Information and communication,116
+2017,Johor,Manufacturing,831
+2016,Johor,Manufacturing,701
+2015,Johor,Manufacturing,620
+2015,Kedah,Manufacturing,489
+2016,Kedah,Manufacturing,372
+2017,Kedah,Manufacturing,343
 2017,Kuala Lumpur ,Manufacturing,2929
 2016,Kuala Lumpur ,Manufacturing,1776
 2015,Kuala Lumpur ,Manufacturing,1443
 2015,Melaka,Manufacturing,1236
-2017,Johor,Manufacturing,831
-2016,Pulau Pinang,Manufacturing,778
 2017,Melaka,Manufacturing,771
-2016,Johor,Manufacturing,701
 2016,Melaka,Manufacturing,623
-2015,Johor,Manufacturing,620
-2015,Sabah,Manufacturing,562
-2017,Pulau Pinang,Manufacturing,522
-2015,Kedah,Manufacturing,489
+2015,Negeri Sembilan,Manufacturing,350
+2016,Negeri Sembilan,Manufacturing,332
+2017,Negeri Sembilan,Manufacturing,306
+2015,Pahang,Manufacturing,193
+2016,Pahang,Manufacturing,143
+2017,Pahang,Manufacturing,54
 2017,Perak,Manufacturing,471
 2015,Perak,Manufacturing,395
 2016,Perak,Manufacturing,381
-2016,Kedah,Manufacturing,372
-2015,Negeri Sembilan,Manufacturing,350
-2017,Kedah,Manufacturing,343
-2016,Negeri Sembilan,Manufacturing,332
-2017,Negeri Sembilan,Manufacturing,306
-2015,Sarawak,Manufacturing,252
+2016,Pulau Pinang,Manufacturing,778
+2017,Pulau Pinang,Manufacturing,522
 2015,Pulau Pinang,Manufacturing,229
+2015,Sabah,Manufacturing,562
 2016,Sabah,Manufacturing,198
-2015,Pahang,Manufacturing,193
-2017,Terengganu,Manufacturing,171
-2017,Kelantan,Manufacturing,170
-2016,Kelantan,Manufacturing,149
-2016,Pahang,Manufacturing,143
-2016,Sarawak,Manufacturing,136
-2017,Perlis,Manufacturing,129
 2017,Sabah,Manufacturing,91
+2015,Sarawak,Manufacturing,252
+2016,Sarawak,Manufacturing,136
 2017,Sarawak,Manufacturing,81
-2016,Terengganu,Manufacturing,67
-2015,Terengganu,Manufacturing,57
-2017,Pahang,Manufacturing,54
-2015,Kelantan,Manufacturing,17
-2015,Labuan,Manufacturing,9
-2017,Labuan,Manufacturing,9
-2016,Perlis,Manufacturing,8
-2016,Labuan,Manufacturing,7
-2015,Perlis,Manufacturing,6
+2016,Selangor,Manufacturing,5250
+2015,Selangor,Manufacturing,5006
+2017,Selangor,Manufacturing,4680
 2015,Johor,"Professional, scientific and technical",434
-2015,Pulau Pinang,"Professional, scientific and technical",319
-2016,Selangor,"Professional, scientific and technical",260
 2016,Johor,"Professional, scientific and technical",248
-2015,Selangor,"Professional, scientific and technical",245
-2015,Kuala Lumpur ,"Professional, scientific and technical",230
 2017,Johor,"Professional, scientific and technical",213
+2015,Kedah,"Professional, scientific and technical",34
+2016,Kedah,"Professional, scientific and technical",27
+2017,Kedah,"Professional, scientific and technical",21
+2015,Kuala Lumpur ,"Professional, scientific and technical",230
 2016,Kuala Lumpur ,"Professional, scientific and technical",190
-2017,Pulau Pinang,"Professional, scientific and technical",139
-2016,Pulau Pinang,"Professional, scientific and technical",130
-2017,Selangor,"Professional, scientific and technical",120
 2017,Kuala Lumpur ,"Professional, scientific and technical",97
-2015,Sarawak,"Professional, scientific and technical",70
-2016,Sarawak,"Professional, scientific and technical",62
+2016,Melaka,"Professional, scientific and technical",29
+2015,Melaka,"Professional, scientific and technical",13
+2017,Melaka,"Professional, scientific and technical",8
 2015,Negeri Sembilan,"Professional, scientific and technical",57
+2016,Negeri Sembilan,"Professional, scientific and technical",30
+2017,Negeri Sembilan,"Professional, scientific and technical",23
+2015,Pahang,"Professional, scientific and technical",31
+2016,Pahang,"Professional, scientific and technical",15
+2017,Pahang,"Professional, scientific and technical",12
 2016,Perak,"Professional, scientific and technical",56
 2015,Perak,"Professional, scientific and technical",54
-2017,Sarawak,"Professional, scientific and technical",43
 2017,Perak,"Professional, scientific and technical",35
-2015,Kedah,"Professional, scientific and technical",34
-2015,Pahang,"Professional, scientific and technical",31
+2015,Pulau Pinang,"Professional, scientific and technical",319
+2017,Pulau Pinang,"Professional, scientific and technical",139
+2016,Pulau Pinang,"Professional, scientific and technical",130
 2015,Sabah,"Professional, scientific and technical",31
-2016,Negeri Sembilan,"Professional, scientific and technical",30
-2016,Melaka,"Professional, scientific and technical",29
-2016,Kedah,"Professional, scientific and technical",27
-2017,Negeri Sembilan,"Professional, scientific and technical",23
-2017,Kedah,"Professional, scientific and technical",21
-2016,Pahang,"Professional, scientific and technical",15
-2015,Terengganu,"Professional, scientific and technical",15
 2017,Sabah,"Professional, scientific and technical",14
-2015,Melaka,"Professional, scientific and technical",13
-2016,Terengganu,"Professional, scientific and technical",13
-2017,Terengganu,"Professional, scientific and technical",13
-2017,Pahang,"Professional, scientific and technical",12
 2016,Sabah,"Professional, scientific and technical",10
-2017,Melaka,"Professional, scientific and technical",8
-2016,Kelantan,"Professional, scientific and technical",7
-2015,Kelantan,"Professional, scientific and technical",3
-2015,Perlis,"Professional, scientific and technical",3
-2016,Perlis,"Professional, scientific and technical",3
-2015,Labuan,"Professional, scientific and technical",3
-2017,Kelantan,"Professional, scientific and technical",1
-2016,Labuan,"Professional, scientific and technical",1
-2017,Labuan,"Professional, scientific and technical",1
-2015,Sabah,Wholesale and retail trade,1294
+2015,Sarawak,"Professional, scientific and technical",70
+2016,Sarawak,"Professional, scientific and technical",62
+2017,Sarawak,"Professional, scientific and technical",43
+2016,Selangor,"Professional, scientific and technical",260
+2015,Selangor,"Professional, scientific and technical",245
+2017,Selangor,"Professional, scientific and technical",120
 2015,Johor,Wholesale and retail trade,1272
-2015,Selangor,Wholesale and retail trade,1247
-2016,Selangor,Wholesale and retail trade,1207
+2016,Johor,Wholesale and retail trade,886
+2017,Johor,Wholesale and retail trade,718
+2015,Kedah,Wholesale and retail trade,299
+2016,Kedah,Wholesale and retail trade,229
+2017,Kedah,Wholesale and retail trade,225
+2015,Kuala Lumpur ,Wholesale and retail trade,877
+2016,Kuala Lumpur ,Wholesale and retail trade,671
+2017,Kuala Lumpur ,Wholesale and retail trade,234
+2016,Melaka,Wholesale and retail trade,220
+2017,Melaka,Wholesale and retail trade,45
+2015,Melaka,Wholesale and retail trade,33
+2015,Negeri Sembilan,Wholesale and retail trade,442
+2017,Negeri Sembilan,Wholesale and retail trade,206
+2016,Negeri Sembilan,Wholesale and retail trade,162
+2015,Pahang,Wholesale and retail trade,498
+2016,Pahang,Wholesale and retail trade,256
+2017,Pahang,Wholesale and retail trade,127
+2015,Perak,Wholesale and retail trade,746
+2016,Perak,Wholesale and retail trade,615
+2017,Perak,Wholesale and retail trade,494
+2015,Pulau Pinang,Wholesale and retail trade,1042
+2017,Pulau Pinang,Wholesale and retail trade,418
+2016,Pulau Pinang,Wholesale and retail trade,342
+2015,Sabah,Wholesale and retail trade,1294
+2016,Sabah,Wholesale and retail trade,604
+2017,Sabah,Wholesale and retail trade,480
 2017,Sarawak,Wholesale and retail trade,1127
 2016,Sarawak,Wholesale and retail trade,1113
 2015,Sarawak,Wholesale and retail trade,1088
-2015,Pulau Pinang,Wholesale and retail trade,1042
-2016,Johor,Wholesale and retail trade,886
-2015,Kuala Lumpur ,Wholesale and retail trade,877
-2015,Perak,Wholesale and retail trade,746
+2015,Selangor,Wholesale and retail trade,1247
+2016,Selangor,Wholesale and retail trade,1207
 2017,Selangor,Wholesale and retail trade,724
-2017,Johor,Wholesale and retail trade,718
-2016,Kuala Lumpur ,Wholesale and retail trade,671
-2016,Perak,Wholesale and retail trade,615
-2016,Sabah,Wholesale and retail trade,604
-2015,Pahang,Wholesale and retail trade,498
-2017,Perak,Wholesale and retail trade,494
-2017,Sabah,Wholesale and retail trade,480
-2015,Negeri Sembilan,Wholesale and retail trade,442
-2017,Pulau Pinang,Wholesale and retail trade,418
-2015,Terengganu,Wholesale and retail trade,416
-2016,Pulau Pinang,Wholesale and retail trade,342
-2015,Kedah,Wholesale and retail trade,299
-2016,Pahang,Wholesale and retail trade,256
-2016,Terengganu,Wholesale and retail trade,244
-2017,Kuala Lumpur ,Wholesale and retail trade,234
-2016,Kedah,Wholesale and retail trade,229
-2017,Kedah,Wholesale and retail trade,225
-2016,Melaka,Wholesale and retail trade,220
-2017,Negeri Sembilan,Wholesale and retail trade,206
-2016,Negeri Sembilan,Wholesale and retail trade,162
-2015,Kelantan,Wholesale and retail trade,130
-2017,Pahang,Wholesale and retail trade,127
-2017,Terengganu,Wholesale and retail trade,112
-2015,Perlis,Wholesale and retail trade,85
-2016,Kelantan,Wholesale and retail trade,57
-2016,Perlis,Wholesale and retail trade,54
-2016,Labuan,Wholesale and retail trade,54
-2017,Melaka,Wholesale and retail trade,45
-2017,Kelantan,Wholesale and retail trade,42
-2015,Labuan,Wholesale and retail trade,39
-2015,Melaka,Wholesale and retail trade,33
-2017,Labuan,Wholesale and retail trade,27
-2017,Perlis,Wholesale and retail trade,5
