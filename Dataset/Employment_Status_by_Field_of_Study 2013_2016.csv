@@ -1,7 +1,7 @@
 year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,General Programs,264,261,525
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Arts and Humanities,80,135,215
-2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Social Sciences, Business, and Law",9971,21717,31688
+2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,""Social Sciences, Business, and Law"",9971,21717,31688
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Science, Mathematics, and Computing",6724,12553,19277
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Manufacturing, and Construction",17744,9293,27037
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Agriculture and Veterinary,431,487,918
@@ -9,7 +9,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service Industry,3092,5071,8163
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,General Programs,109,162,271
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Arts and Humanities,63,92,155
-2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Social Sciences, Business, and Law,4593,12542,17135
+2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Social Sciences, Business, and Law",4593,12542,17135
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Science, Mathematics, and Computing",2491,5637,8128
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Manufacturing, and Construction",8015,6077,14092
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Agriculture and Veterinary,268,448,716
@@ -17,7 +17,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Service Industry,1205,2785,3990
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,General Programs,110,210,320
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Arts and Humanities,12,32,44
-2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Social Sciences, Business, and Law,4650,11418,16068
+2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Social Sciences, Business, and Law",4650,11418,16068
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Science, Mathematics, and Computing",2336,3821,6157
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Manufacturing, and Construction",7023,4863,11886
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Agriculture and Veterinary,390,440,830
@@ -25,7 +25,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Service Industry,1082,1963,3045
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,General Programs,11,12,23
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Arts and Humanities,1,1,2
-2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Social Sciences, Business, and Law,356,839,1195
+2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Social Sciences, Business, and Law",356,839,1195
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Science, Mathematics, and Computing",137,165,302
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Manufacturing, and Construction",707,305,1012
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Agriculture and Veterinary,23,10,33
@@ -33,7 +33,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Service Industry,42,80,122
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,General Programs,17,55,72
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Arts and Humanities,2,9,11
-2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Social Sciences, Business, and Law,489,1137,1626
+2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Social Sciences, Business, and Law",489,1137,1626
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Science, Mathematics, and Computing",1200,5136,6336
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Manufacturing, and Construction",1025,681,1706
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Agriculture and Veterinary,24,28,52
@@ -41,7 +41,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2013,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Service Industry,123,269,392
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,General Programs,7,5,12
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Arts and Humanities,125,157,282
-2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Social Sciences, Business, and Law,11833,25882,37715
+2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Social Sciences, Business, and Law",11833,25882,37715
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Science, Mathematics, and Computing",6008,10132,16140
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Manufacturing, and Construction",15896,8403,24299
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Agriculture and Veterinary,605,648,1253
@@ -49,7 +49,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2014,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service Industry,3629,6213,9842
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,General Programs,15,25,40
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Arts and Humanities,102,120,222
-2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Social Sciences, Business, and Law,5339,14354,19693
+2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Social Sciences, Business, and Law",5339,14354,19693
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Science, Mathematics, and Computing",2516,5719,8235
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Manufacturing, and Construction",6886,5245,12131
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Agriculture and Veterinary,459,655,1114
@@ -57,7 +57,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2014,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Service Industry,1529,3430,4959
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,General Programs,107,155,262
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Arts and Humanities,16,31,47
-2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Social Sciences, Business, and Law,4953,12476,17429
+2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Social Sciences, Business, and Law",4953,12476,17429
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Science, Mathematics, and Computing",2750,4896,7646
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Manufacturing, and Construction",6261,4153,10414
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Agriculture and Veterinary,418,456,874
@@ -65,14 +65,14 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2014,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Service Industry,1198,2061,3259
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,General Programs,1,0,1
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Arts and Humanities,3,4,7
-2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Social Sciences, Business, and Law,494,1027,1521
+2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Social Sciences, Business, and Law",494,1027,1521
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Science, Mathematics, and Computing",141,193,334
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Manufacturing, and Construction",657,263,920
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Agriculture and Veterinary,26,25,51
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Health and Welfare,60,117,177
 2014,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Service Industry,70,126,196
 2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Arts and Humanities,10,8,18
-2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Social Sciences, Business, and Law,540,1378,1918
+2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Social Sciences, Business, and Law",540,1378,1918
 2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Science, Mathematics, and Computing",622,1806,2428
 2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Manufacturing, and Construction",909,690,1599
 2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Agriculture and Veterinary,23,54,77
@@ -80,7 +80,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2014,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Service Industry,142,275,417
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,General Programs,53,17,70
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Arts and Humanities,109,179,288
-2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Social Sciences, Business, and Law,11930,25424,37354
+2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Social Sciences, Business, and Law",11930,25424,37354
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Science, Mathematics, and Computing",11007,23046,34053
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Manufacturing, and Construction",16711,9033,25744
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Agriculture and Veterinary,685,673,1358
@@ -88,7 +88,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2015,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service Industry,3985,6369,10354
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,General Programs,100,113,213
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Arts and Humanities,80,185,265
-2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Social Sciences, Business, and Law,5654,13724,19378
+2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Social Sciences, Business, and Law",5654,13724,19378
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Science, Mathematics, and Computing",2913,6896,9809
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Manufacturing, and Construction",6815,5145,11960
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Agriculture and Veterinary,576,803,1379
@@ -96,7 +96,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2015,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Service Industry,1883,3786,5669
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,General Programs,62,103,165
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Arts and Humanities,34,73,107
-2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Social Sciences, Business, and Law,4601,11054,15655
+2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Social Sciences, Business, and Law",4601,11054,15655
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Science, Mathematics, and Computing",2568,4180,6748
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Manufacturing, and Construction",5813,3948,9761
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Agriculture and Veterinary,444,474,918
@@ -104,7 +104,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2015,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Service Industry,1201,2010,3211
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,General Programs,6,3,9
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Arts and Humanities,3,4,7
-2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Social Sciences, Business, and Law,467,1002,1469
+2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Social Sciences, Business, and Law",467,1002,1469
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Science, Mathematics, and Computing",180,296,476
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Manufacturing, and Construction",833,462,1295
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Agriculture and Veterinary,19,24,43
@@ -112,7 +112,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2015,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Service Industry,93,168,261
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,General Programs,5,0,5
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Arts and Humanities,5,14,19
-2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Social Sciences, Business, and Law,516,1266,1782
+2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Social Sciences, Business, and Law",516,1266,1782
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Science, Mathematics, and Computing",566,1543,2109
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Manufacturing, and Construction",962,668,1630
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Agriculture and Veterinary,43,47,90
@@ -120,7 +120,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2015,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Service Industry,157,329,486
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,General Programs,37,40,77
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Arts and Humanities,139,203,342
-2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Social Sciences, Business, and Law,14352,31611,45963
+2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Social Sciences, Business, and Law",14352,31611,45963
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Science, Mathematics, and Computing",9357,19649,29006
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,"Manufacturing, and Construction",20317,11385,31702
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Agriculture and Veterinary,923,874,1797
@@ -128,7 +128,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2016,KEMENTERIAN PENGAJIAN TINGGI,Employed,Service Industry,4893,7844,12737
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,General Programs,108,104,212
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Arts and Humanities,155,326,481
-2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Social Sciences, Business, and Law,5751,14367,20118
+2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Social Sciences, Business, and Law",5751,14367,20118
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Science, Mathematics, and Computing",2911,6106,9017
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,"Manufacturing, and Construction",6229,4610,10839
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Agriculture and Veterinary,543,776,1319
@@ -136,7 +136,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2016,KEMENTERIAN PENGAJIAN TINGGI,Unemployed,Service Industry,1954,3954,5908
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,General Programs,59,119,178
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Arts and Humanities,21,45,66
-2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Social Sciences, Business, and Law,4089,9778,13867
+2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Social Sciences, Business, and Law",4089,9778,13867
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Science, Mathematics, and Computing",2383,3116,5499
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,"Manufacturing, and Construction",5482,3154,8636
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Agriculture and Veterinary,331,440,771
@@ -144,7 +144,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2016,KEMENTERIAN PENGAJIAN TINGGI,Pursuing Further Studies,Service Industry,1061,1713,2774
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,General Programs,3,1,4
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Arts and Humanities,7,9,16
-2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Social Sciences, Business, and Law,691,1703,2394
+2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Social Sciences, Business, and Law",691,1703,2394
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Science, Mathematics, and Computing",192,425,617
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,"Manufacturing, and Construction",993,664,1657
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Agriculture and Veterinary,36,42,78
@@ -152,7 +152,7 @@ year,Ministry,Employment_Status,NEC_Description,Male,Female,Total
 2016,KEMENTERIAN PENGAJIAN TINGGI,Craft enhancement,Service Industry,132,233,365
 2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,General Programs,1,3,4
 2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Arts and Humanities,14,18,32
-2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Social Sciences, Business, and Law,613,1383,1996
+2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Social Sciences, Business, and Law",613,1383,1996
 2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Science, Mathematics, and Computing",485,1137,1622
 2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,"Manufacturing, and Construction",845,601,1446
 2016,KEMENTERIAN PENGAJIAN TINGGI,Awaiting Job Placement,Agriculture and Veterinary,61,77,138

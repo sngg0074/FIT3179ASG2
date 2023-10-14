@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Total Employers Contribution By Sector and State 2015 to 2017",
+  "width": 1000,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/97cc8f00c43a81edb22b0094efd9a69ef8a194ec/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
+  },
+  
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "State", "type": "ordinal"},
+    "y": {"field": "Total", "type": "quantitative","scale": {"domain": [0, 7500]}},
+    "color": {
+      "field": "Sector",
+      "type": "nominal",
+      "scale": {
+          "domain": ["Construction","Information and communication","Manufacturing","Professional, scientific and technical","Wholesale and retail trade"],
+          "range": [ "#999999", "#e69f00", "#56b4e9","#009e73","#f0e442"]
+      },
+      "title": "Sectors",
+      "legend":{
+          "orient": "top-left",
+          "padding": 5,
+          "rowPadding": 8,
+          "titleFontSize": 14,
+          "labelFontSize": 12
+      }
+    }
+  },
+  "transform": [
+    {"filter": "datum.Year==year_slider"},
+    {"stack": "Total", "groupby": ["State"]},
+    {"filter": "sector_selection == null || datum.Sector == sector_selection"}
+  ],
+  "params": [
+    {
+      "name": "year_slider",
+      "bind": {
+        "input": "range",
+        "min": 2015,
+        "max": 2017,
+        "step": 1,
+        "name": "Select the Year:"
+      },
+      "value": 2015  
+    },
+
+    {
+      "name": "sector_selection",
+      "bind": {
+          "input": "select",
+          "options": [
+              null,
+              "Construction",
+              "Information and communication",
+              "Manufacturing",
+              "Professional, scientific and technical",
+              "Wholesale and retail trade"
+          ],
+          "labels":[
+              "Show All",
+              "Construction",
+              "Information and communication",
+              "Manufacturing",
+              "Professional, scientific and technical",
+              "Wholesale and retail trade"
+          ],
+          "name": "Sector Selection: "
+      }
+    }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
+}
+
+
+
+

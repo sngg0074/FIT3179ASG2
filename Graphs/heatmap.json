@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
+  "mark": "rect",
+  "encoding": {
+    "y": {"field": "Employment_Status", "type": "nominal"},
+    "x": {"field": "NEC_Description", "type": "nominal"},
+    "color": {"aggregate": "sum","field": "Total"}
+    
+  },
+  "transform":[
+    {"filter": "datum.year==year_slider"}],
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent"}
+  },
+  "params": [
+    {
+      "name": "year_slider",
+      "bind": {
+        "input": "range",
+        "min": 2013,
+        "max": 2016,
+        "step": 1,
+        "name": "Select the Year:"
+      },
+      "value": 2013
+    },
+
+    {
+      "name": "category_selection",
+      "bind": {
+          "input": "select",
+          "options": [
+              "Large",
+              "SME"
+          ],
+          "labels":[
+              "Large",
+              "SME"
+          ],
+          "name": "Category Selection: "
+      }
+    }
+  ]
+}
