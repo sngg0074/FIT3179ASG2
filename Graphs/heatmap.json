@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/d0204c64fddf225793f38584c25736ee65705d64/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
   "mark": "rect",
   "encoding": {
     "y": {"field": "Employment_Status", "type": "nominal"},
