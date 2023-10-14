@@ -1,0 +1,19 @@
+{
+  "data": {
+    "url": "data/iris.json"
+  },
+  "transform": [
+    {"window": [{"op": "count", "as": "index"}]},
+    {"fold": ["petalLength", "petalWidth", "sepalLength", "sepalWidth"]}
+  ],
+  "mark": "line",
+  "encoding": {
+    "color": {"type": "nominal", "field": "species"},
+    "detail": {"type": "nominal", "field": "index"},
+    "opacity": {"value": 0.3},
+    "x": {"type": "nominal", "field": "key"},
+    "y": {"type": "quantitative", "field": "value"}
+  },
+  "width": 600,
+  "height": 300
+}

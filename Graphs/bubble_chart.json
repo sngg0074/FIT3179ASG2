@@ -1,0 +1,705 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 700,
+  "height": 700,
+  "padding": {"left": 5, "right": 5, "top": 20, "bottom": 40},
+  "autosize": "none",
+  "signals": [
+    {
+      "name": "TotalEmployees",
+      "value": 0,
+      "bind": {"input": "range", "min": 0, "max": 270000, "name": "Total Employees: "}
+    },
+    {
+      "name": "Year",
+      "value": 2016,
+      "bind": {"input": "range", "min": 2016, "max": 2018, "step": 1, "name": "Year: "}
+    },
+    {
+      "name": "company_select",
+      "value": "Large",
+      "bind": {
+          "input": "select",
+          "options": ["SME", "Large"],
+          "labels": ["SME", "Large"],
+          "name": "Company Size: "
+      }
+  }
+  ],
+  "data": [
+    {
+      "name": "tbl",
+      "values": [
+        {
+          "Year": 2016,
+          "State": "Johor",
+          "Category": "Large",
+          "Total": 82124
+        },
+        {
+          "Year": 2016,
+          "State": "Johor",
+          "Category": "SME",
+          "Total": 121576
+        },
+        {
+          "Year": 2016,
+          "State": "Kedah",
+          "Category": "Large",
+          "Total": 33629
+        },
+        {
+          "Year": 2016,
+          "State": "Kedah",
+          "Category": "SME",
+          "Total": 41064
+        },
+        {
+          "Year": 2016,
+          "State": "Kelantan",
+          "Category": "Large",
+          "Total": 7158
+        },
+        {
+          "Year": 2016,
+          "State": "Kelantan",
+          "Category": "SME",
+          "Total": 7478
+        },
+        {
+          "Year": 2016,
+          "State": "Melaka",
+          "Category": "Large",
+          "Total": 27500
+        },
+        {
+          "Year": 2016,
+          "State": "Melaka",
+          "Category": "SME",
+          "Total": 22591
+        },
+        {
+          "Year": 2016,
+          "State": "Negeri Sembilan",
+          "Category": "Large",
+          "Total": 23496
+        },
+        {
+          "Year": 2016,
+          "State": "Negeri Sembilan",
+          "Category": "SME",
+          "Total": 24906
+        },
+        {
+          "Year": 2016,
+          "State": "Pahang",
+          "Category": "Large",
+          "Total": 23154
+        },
+        {
+          "Year": 2016,
+          "State": "Pahang",
+          "Category": "SME",
+          "Total": 18051
+        },
+        {
+          "Year": 2016,
+          "State": "Perak",
+          "Category": "Large",
+          "Total": 28787
+        },
+        {
+          "Year": 2016,
+          "State": "Perak",
+          "Category": "SME",
+          "Total": 49536
+        },
+        {
+          "Year": 2016,
+          "State": "Perlis",
+          "Category": "Large",
+          "Total": 1889
+        },
+        {
+          "Year": 2016,
+          "State": "Perlis",
+          "Category": "SME",
+          "Total": 3022
+        },
+        {
+          "Year": 2016,
+          "State": "Pulau Pinang",
+          "Category": "Large",
+          "Total": 106022
+        },
+        {
+          "Year": 2016,
+          "State": "Pulau Pinang",
+          "Category": "SME",
+          "Total": 76480
+        },
+        {
+          "Year": 2016,
+          "State": "Sabah",
+          "Category": "Large",
+          "Total": 24123
+        },
+        {
+          "Year": 2016,
+          "State": "Sabah",
+          "Category": "SME",
+          "Total": 35642
+        },
+        {
+          "Year": 2016,
+          "State": "Sarawak",
+          "Category": "Large",
+          "Total": 34415
+        },
+        {
+          "Year": 2016,
+          "State": "Sarawak",
+          "Category": "SME",
+          "Total": 42133
+        },
+        {
+          "Year": 2016,
+          "State": "Selangor",
+          "Category": "Large",
+          "Total": 335323
+        },
+        {
+          "Year": 2016,
+          "State": "Selangor",
+          "Category": "SME",
+          "Total": 237738
+        },
+        {
+          "Year": 2016,
+          "State": "Terengganu",
+          "Category": "Large",
+          "Total": 8054
+        },
+        {
+          "Year": 2016,
+          "State": "Terengganu",
+          "Category": "SME",
+          "Total": 13402
+        },
+        {
+          "Year": 2016,
+          "State": "Kuala Lumpur",
+          "Category": "Large",
+          "Total": 265315
+        },
+        {
+          "Year": 2016,
+          "State": "Kuala Lumpur",
+          "Category": "SME",
+          "Total": 92510
+        },
+        {
+          "Year": 2016,
+          "State": "Labuan",
+          "Category": "Large",
+          "Total": 1586
+        },
+        {
+          "Year": 2016,
+          "State": "Labuan",
+          "Category": "SME",
+          "Total": 1339
+        },
+        {
+          "Year": 2016,
+          "State": "Putrajaya",
+          "Category": "Large",
+          "Total": 1772
+        },
+        {
+          "Year": 2016,
+          "State": "Putrajaya",
+          "Category": "SME",
+          "Total": 255
+        },
+        {
+          "Year": 2017,
+          "State": "Johor",
+          "Category": "Large",
+          "Total": 86261
+        },
+        {
+          "Year": 2017,
+          "State": "Johor",
+          "Category": "SME",
+          "Total": 140916
+        },
+        {
+          "Year": 2017,
+          "State": "Kedah",
+          "Category": "Large",
+          "Total": 34149
+        },
+        {
+          "Year": 2017,
+          "State": "Kedah",
+          "Category": "SME",
+          "Total": 46804
+        },
+        {
+          "Year": 2017,
+          "State": "Kelantan",
+          "Category": "Large",
+          "Total": 7242
+        },
+        {
+          "Year": 2017,
+          "State": "Kelantan",
+          "Category": "SME",
+          "Total": 8797
+        },
+        {
+          "Year": 2017,
+          "State": "Melaka",
+          "Category": "Large",
+          "Total": 27432
+        },
+        {
+          "Year": 2017,
+          "State": "Melaka",
+          "Category": "SME",
+          "Total": 25821
+        },
+        {
+          "Year": 2017,
+          "State": "Negeri Sembilan",
+          "Category": "Large",
+          "Total": 23741
+        },
+        {
+          "Year": 2017,
+          "State": "Negeri Sembilan",
+          "Category": "SME",
+          "Total": 27128
+        },
+        {
+          "Year": 2017,
+          "State": "Pahang",
+          "Category": "Large",
+          "Total": 23306
+        },
+        {
+          "Year": 2017,
+          "State": "Pahang",
+          "Category": "SME",
+          "Total": 19905
+        },
+        {
+          "Year": 2017,
+          "State": "Perak",
+          "Category": "Large",
+          "Total": 28307
+        },
+        {
+          "Year": 2017,
+          "State": "Perak",
+          "Category": "SME",
+          "Total": 57838
+        },
+        {
+          "Year": 2017,
+          "State": "Perlis",
+          "Category": "Large",
+          "Total": 2592
+        },
+        {
+          "Year": 2017,
+          "State": "Perlis",
+          "Category": "SME",
+          "Total": 2331
+        },
+        {
+          "Year": 2017,
+          "State": "Pulau Pinang",
+          "Category": "Large",
+          "Total": 103218
+        },
+        {
+          "Year": 2017,
+          "State": "Pulau Pinang",
+          "Category": "SME",
+          "Total": 92174
+        },
+        {
+          "Year": 2017,
+          "State": "Sabah",
+          "Category": "Large",
+          "Total": 26643
+        },
+        {
+          "Year": 2017,
+          "State": "Sabah",
+          "Category": "SME",
+          "Total": 37759
+        },
+        {
+          "Year": 2017,
+          "State": "Sarawak",
+          "Category": "Large",
+          "Total": 38006
+        },
+        {
+          "Year": 2017,
+          "State": "Sarawak",
+          "Category": "SME",
+          "Total": 46121
+        },
+        {
+          "Year": 2017,
+          "State": "Selangor",
+          "Category": "Large",
+          "Total": 347876
+        },
+        {
+          "Year": 2017,
+          "State": "Selangor",
+          "Category": "SME",
+          "Total": 258358
+        },
+        {
+          "Year": 2017,
+          "State": "Terengganu",
+          "Category": "Large",
+          "Total": 8403
+        },
+        {
+          "Year": 2017,
+          "State": "Terengganu",
+          "Category": "SME",
+          "Total": 13783
+        },
+        {
+          "Year": 2017,
+          "State": "Kuala Lumpur",
+          "Category": "Large",
+          "Total": 263737
+        },
+        {
+          "Year": 2017,
+          "State": "Kuala Lumpur",
+          "Category": "SME",
+          "Total": 109821
+        },
+        {
+          "Year": 2017,
+          "State": "Labuan",
+          "Category": "Large",
+          "Total": 1492
+        },
+        {
+          "Year": 2017,
+          "State": "Labuan",
+          "Category": "SME",
+          "Total": 1433
+        },
+        {
+          "Year": 2017,
+          "State": "Putrajaya",
+          "Category": "Large",
+          "Total": 1927
+        },
+        {
+          "Year": 2017,
+          "State": "Putrajaya",
+          "Category": "SME",
+          "Total": 300
+        },
+        {
+          "Year": 2018,
+          "State": "Johor",
+          "Category": "Large",
+          "Total": 87303
+        },
+        {
+          "Year": 2018,
+          "State": "Johor",
+          "Category": "SME",
+          "Total": 139917
+        },
+        {
+          "Year": 2018,
+          "State": "Kedah",
+          "Category": "Large",
+          "Total": 34544
+        },
+        {
+          "Year": 2018,
+          "State": "Kedah",
+          "Category": "SME",
+          "Total": 47436
+        },
+        {
+          "Year": 2018,
+          "State": "Kelantan",
+          "Category": "Large",
+          "Total": 7192
+        },
+        {
+          "Year": 2018,
+          "State": "Kelantan",
+          "Category": "SME",
+          "Total": 9105
+        },
+        {
+          "Year": 2018,
+          "State": "Melaka",
+          "Category": "Large",
+          "Total": 27156
+        },
+        {
+          "Year": 2018,
+          "State": "Melaka",
+          "Category": "SME",
+          "Total": 28860
+        },
+        {
+          "Year": 2018,
+          "State": "Negeri Sembilan",
+          "Category": "Large",
+          "Total": 24052
+        },
+        {
+          "Year": 2018,
+          "State": "Negeri Sembilan",
+          "Category": "SME",
+          "Total": 27357
+        },
+        {
+          "Year": 2018,
+          "State": "Pahang",
+          "Category": "Large",
+          "Total": 23936
+        },
+        {
+          "Year": 2018,
+          "State": "Pahang",
+          "Category": "SME",
+          "Total": 20437
+        },
+        {
+          "Year": 2018,
+          "State": "Perak",
+          "Category": "Large",
+          "Total": 29222
+        },
+        {
+          "Year": 2018,
+          "State": "Perak",
+          "Category": "SME",
+          "Total": 60207
+        },
+        {
+          "Year": 2018,
+          "State": "Perlis",
+          "Category": "Large",
+          "Total": 2634
+        },
+        {
+          "Year": 2018,
+          "State": "Perlis",
+          "Category": "SME",
+          "Total": 2336
+        },
+        {
+          "Year": 2018,
+          "State": "Pulau Pinang",
+          "Category": "Large",
+          "Total": 103291
+        },
+        {
+          "Year": 2018,
+          "State": "Pulau Pinang",
+          "Category": "SME",
+          "Total": 98166
+        },
+        {
+          "Year": 2018,
+          "State": "Sabah",
+          "Category": "Large",
+          "Total": 27016
+        },
+        {
+          "Year": 2018,
+          "State": "Sabah",
+          "Category": "SME",
+          "Total": 39614
+        },
+        {
+          "Year": 2018,
+          "State": "Sarawak",
+          "Category": "Large",
+          "Total": 37796
+        },
+        {
+          "Year": 2018,
+          "State": "Sarawak",
+          "Category": "SME",
+          "Total": 48688
+        },
+        {
+          "Year": 2018,
+          "State": "Selangor",
+          "Category": "Large",
+          "Total": 347779
+        },
+        {
+          "Year": 2018,
+          "State": "Selangor",
+          "Category": "SME",
+          "Total": 268069
+        },
+        {
+          "Year": 2018,
+          "State": "Terengganu",
+          "Category": "Large",
+          "Total": 8407
+        },
+        {
+          "Year": 2018,
+          "State": "Terengganu",
+          "Category": "SME",
+          "Total": 14263
+        },
+        {
+          "Year": 2018,
+          "State": "Kuala Lumpur",
+          "Category": "Large",
+          "Total": 269785
+        },
+        {
+          "Year": 2018,
+          "State": "Kuala Lumpur",
+          "Category": "SME",
+          "Total": 107502
+        },
+        {
+          "Year": 2018,
+          "State": "Labuan",
+          "Category": "Large",
+          "Total": 1492
+        },
+        {
+          "Year": 2018,
+          "State": "Labuan",
+          "Category": "SME",
+          "Total": 1466
+        },
+        {
+          "Year": 2018,
+          "State": "Putrajaya",
+          "Category": "Large",
+          "Total": 1716
+        },
+        {
+          "Year": 2018,
+          "State": "Putrajaya",
+          "Category": "SME",
+          "Total": 563
+        }
+      ],
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.Total >= TotalEmployees"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.Category == company_select"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.Year == Year"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "size",
+      "domain": {"data": "tbl", "field": "Total"},
+      "range": [300, 70000],
+      "nice": true
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": [6000, 20000, 50000, 80000, 100000, 270000],
+      "range": ["#a6d7ff", "#6bb1e1", "#3a8db6", "#00639d", "#003f77"]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Total Employees Count",
+      "gradientLength": 200,
+      "gradientThickness": 20,
+      "direction": "horizontal",
+      "tickCount": 6,
+      "titleFontSize": 12,
+      "labelFontSize": 10,
+      "orient": "bottom",
+      "offset": -20
+    }
+  ],
+  "marks": [
+    {
+      "name": "nodes",
+      "type": "symbol",
+      "from": {"data": "tbl"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "Total"},
+          "xfocus": {"signal": "width / 2"},
+          "yfocus": {"signal": "height / 2"}
+        },
+        "update": {
+          "size": {"signal": "scale('size', datum.Total)"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 2},
+          "tooltip": {"signal": "{'State': datum.State, 'Total Employees Count': datum.Total}"}
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "iterations": 100,
+          "static": false,
+          "forces": [
+            {
+              "force": "collide",
+              "iterations": 2,
+              "radius": {"expr": "sqrt(datum.size) / 2"}
+            },
+            {"force": "center", "x": {"signal": "width / 2"}, "y": {"signal": "height / 2"}},
+            {"force": "x", "x": "xfocus"},
+            {"force": "y", "y": "yfocus"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fontSize": {"value": 8},
+          "fill": {"value": "white"},
+          "text": {"field": "datum.State"}
+        },
+        "update": {"x": {"field": "x"}, "y": {"field": "y"}}
+      }
+    }
+  ]
+}
