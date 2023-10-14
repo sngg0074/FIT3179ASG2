@@ -1,55 +1,10 @@
-﻿Category,Skills,Value
-Agricultural,Ability to work independently,5.7
-Agricultural,Communication skills,4.3
-Agricultural,Creative/critical thinking,3.8
-Agricultural,Numeracy,3.4
-Agricultural,Problem-solving skills,4.6
-Agricultural,Team work ,6.3
-Clerical Support Workers,Ability to work independently,52.8
-Clerical Support Workers,Communication skills,50
-Clerical Support Workers,Creative/critical thinking,32.1
-Clerical Support Workers,Numeracy,44.6
-Clerical Support Workers,Problem-solving skills,42.4
-Clerical Support Workers,Team work ,52.1
-Craft & Related Trades Workers,Ability to work independently,12.6
-Craft & Related Trades Workers,Communication skills,9.2
-Craft & Related Trades Workers,Creative/critical thinking,8.4
-Craft & Related Trades Workers,Numeracy,7.2
-Craft & Related Trades Workers,Problem-solving skills,10.9
-Craft & Related Trades Workers,Team work ,13.1
-Elementary Occupations,Ability to work independently,25.9
-Elementary Occupations,Communication skills,20.6
-Elementary Occupations,Creative/critical thinking,10.8
-Elementary Occupations,Numeracy,14.4
-Elementary Occupations,Problem-solving skills,15.6
-Elementary Occupations,Team work ,29.1
-Machine Operators,Ability to work independently,14.6
-Machine Operators,Communication skills,9.9
-Machine Operators,Creative/critical thinking,7.3
-Machine Operators,Numeracy,7.5
-Machine Operators,Problem-solving skills,11.1
-Machine Operators,Team work ,15.6
-Managers,Ability to work independently,64.7
-Managers,Communication skills,65.2
-Managers,Creative/critical thinking,60.7
-Managers,Numeracy,59.1
-Managers,Problem-solving skills,65.8
-Managers,Team work ,63.1
-Professionals,Ability to work independently,29.1
-Professionals,Communication skills,28.8
-Professionals,Creative/critical thinking,27.8
-Professionals,Numeracy,25.6
-Professionals,Problem-solving skills,29
-Professionals,Team work ,28.7
-Service and Sales Workers,Ability to work independently,35.6
-Service and Sales Workers,Communication skills,38.6
-Service and Sales Workers,Creative/critical thinking,24.2
-Service and Sales Workers,Numeracy,28.2
-Service and Sales Workers,Problem-solving skills,30.6
-Service and Sales Workers,Team work ,36.8
-Technicians & Associate Professionals,Ability to work independently,20.8
-Technicians & Associate Professionals,Communication skills,18.1
-Technicians & Associate Professionals,Creative/critical thinking,16.6
-Technicians & Associate Professionals,Numeracy,15.3
-Technicians & Associate Professionals,Problem-solving skills,20.5
-Technicians & Associate Professionals,Team work ,21.1
+Job Category,Numeracy,Communication skills,Creative/critical thinking,Problem-solving skills,Ability to work independently,Team work
+Managers,59.10,65.20,60.70,65.80,64.70,63.10
+Professionals,25.60,28.80,27.80,29.00,29.10,28.70
+Technicians & Associate Professionals,15.30,18.10,16.60,20.50,20.80,21.10
+Clerical Support Workers,44.60,50.00,32.10,42.40,52.80,52.10
+Service and Sales Workers,28.20,38.60,24.20,30.60,35.60,36.80
+Agricultural,3.40,4.30,3.80,4.60,5.70,6.30
+Craft & Related Trades Workers,7.20,9.20,8.40,10.90,12.60,13.10
+Machine Operators,7.50,9.90,7.30,11.10,14.60,15.60
+Elementary Occupations,14.40,20.60,10.80,15.60,25.90,29.10
