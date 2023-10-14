@@ -1,19 +1,114 @@
+
+
 {
   "data": {
-    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Skills_needed_by_Job_Category_2016.csv"
-  },
-  "transform": [
-    {"window": [{"op": "count", "as": "index"}]},
-    {"fold": ["petalLength", "petalWidth", "sepalLength", "sepalWidth"]}
-  ],
-  "mark": "line",
-  "encoding": {
-    "color": {"type": "nominal", "field": "species"},
-    "detail": {"type": "nominal", "field": "index"},
-    "opacity": {"value": 0.3},
-    "x": {"type": "nominal", "field": "key"},
-    "y": {"type": "quantitative", "field": "value"}
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/733037372cbe632ff37ce821f0b3007f2d55b368/Dataset/Skills_needed_by_Job_Category_2016.csv"
   },
   "width": 600,
-  "height": 300
+  "height": 300,
+  "transform": [
+    {"window": [{"op": "count", "as": "index"}]},
+    {"fold": [
+      "Ability to work independently",
+      "Communication skills",
+      "Creative/critical thinking",
+      "Numeracy",
+      "Problem-solving skills",
+      "Team work"
+    ]},
+    {
+      "window": [
+        {"op": "min", "field": "Value", "as": "min"},
+        {"op": "max", "field": "Value", "as": "max"}
+      ],
+      "frame": [null, null],
+      "groupby": ["key"]
+    },
+    {
+      "calculate": "(datum.Value - datum.min) / (datum.max-datum.min)",
+      "as": "norm_val"
+    },
+    {
+      "calculate": "(datum.min + datum.max) / 2",
+      "as": "mid"
+    }
+  ],
+  "layer": [{
+    "mark": {"type": "rule", "color": "#ccc", "tooltip": null},
+    "encoding": {
+      "detail": {"aggregate": "count", "type": "quantitative"},
+      "x": {"type": "nominal", "field": "key"}
+    }
+  }, {
+    "mark": "line",
+    "encoding": {
+      "color": {"type": "nominal", "field": "Category"},
+      "detail": {"type": "nominal", "field": "index"},
+      "opacity": {"value": 0.3},
+      "x": {"type": "nominal", "field": "Skills"},
+      "y": {"type": "quantitative", "field": "norm_val", "axis": null},
+      "tooltip": [{
+        "field": "Ability to work independently"
+      }, {
+        "field":  "Communication skills"
+      }, {
+        "field": "Creative/critical thinking"
+      }, {
+        "field": "Numeracy"
+      }, {
+        "field": "Problem-solving skills"
+      },{
+        "field": "Team work"
+      }    
+    ]
+    }
+  },{
+    "encoding": {
+      "x": {"type": "nominal", "field": "key"}, 
+      "y": {"value": 0}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "max", "field": "max", "type": "quantitative"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  },{
+
+    "encoding": {
+      "x": {"type": "nominal", "field": "key"}, 
+      "y": {"value": 150}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "min", "field": "mid", "type": "quantitative"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  },{
+    "encoding": {
+      "x": {"type": "nominal", "field": "key"}, 
+      "y": {"value": 300}
+    },
+    "layer": [{
+      "mark": {"type": "text", "style": "label"},
+      "encoding": {
+        "text": {"aggregate": "min", "field": "min", "type": "quantitative"}
+      }
+    }, {
+      "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+    }]
+  }],
+  "config": {
+    "axisX": {"domain": false, "labelAngle": 0, "tickColor": "#ccc", "title": false},
+    "view": {"stroke": null},
+    "style": {
+      "label": {"baseline": "middle", "align": "right", "dx": -5, "tooltip": null},
+      "tick": {"orient": "horizontal", "tooltip": null}
+    }
+  }
 }
