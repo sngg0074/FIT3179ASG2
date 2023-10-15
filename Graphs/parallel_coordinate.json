@@ -2,7 +2,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Skills_needed_by_Job_Category_2016.json"
   },
-  "width": 1000,
+  "width": 850,
   "height": 300,
   "transform": [
     {"window": [{"op": "count", "as": "index"}]},
@@ -44,7 +44,7 @@
         "minExtent": 70,
         "domain": false,
         "titleFontSize":15,
-        "labelFontSize": 14
+        "labelFontSize": 12
       }},
       "y": {"type": "quantitative", "field": "norm_val", "axis": null},
       "tooltip": [

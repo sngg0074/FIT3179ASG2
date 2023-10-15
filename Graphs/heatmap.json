@@ -1,8 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/24921ca46ca0e6eb2791a98e33f3acfd82a231f4/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
-  "mark": "rect",
-  "width": 1000,
+  "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/77febcc320df8e5517939d8ce2039789a797530b/Dataset/Employment_Status_by_Field_of_Study%202013_2016.csv"},
+  "width": 400,
   "height": 400,
   "encoding": {
     "y": {
@@ -56,22 +55,6 @@
         "name": "Select the Year:"
       },
       "value": 2013
-    },
-
-    {
-      "name": "category_selection",
-      "bind": {
-          "input": "select",
-          "options": [
-              "Large",
-              "SME"
-          ],
-          "labels":[
-              "Large",
-              "SME"
-          ],
-          "name": "Category Selection: "
-      }
     }
   ],
 
@@ -85,8 +68,7 @@
         "titleLimit": 0,
         "direction": "horizontal",
         "orient":"bottom",
-        "gradientLength": 350,
-        "padding": 0
+        "gradientLength": 350
       },
       "scale": {
         "type": "threshold",

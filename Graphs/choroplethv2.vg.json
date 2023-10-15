@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "view": {"stroke":"#ffffff"},
   "background":"#ffffff",
-  "width": 1000,
-  "height": 460,
+  "width": 650,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
     "format": {"type": "csv"}
@@ -48,7 +48,7 @@
               "direction": "horizontal",
               "orient":"bottom",
               "gradientLength": 140,
-              "padding": 50
+              "padding": 0
             },
             "scale": {
             "type": "threshold",

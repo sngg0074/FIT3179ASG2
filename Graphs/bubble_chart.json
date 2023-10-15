@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 800,
+  "width": 830,
   "height": 850,
-  "padding": {"left": 5, "right": 5, "top": 20, "bottom": 40},
+  "padding": {"left": 5, "right": 100, "top": 20, "bottom": 40},
   "autosize": "none",
   "signals": [
     {
@@ -633,7 +633,7 @@
     {
       "name": "size",
       "domain": {"data": "tbl", "field": "Total"},
-      "range": [8000, 100000],
+      "range": [4500, 90000],
       "nice": true
     },
     {
@@ -686,7 +686,7 @@
               "iterations": 2,
               "radius": {"expr": "sqrt(datum.size) / 2"}
             },
-            {"force": "center", "x": {"signal": "width / 2"}, "y": {"signal": "height / 2"}},
+            {"force": "center", "x": {"signal": "width / 2.75"}, "y": {"signal": "height / 2"}},
             {"force": "x", "x": "xfocus"},
             {"force": "y", "y": "yfocus"}
           ]
@@ -713,8 +713,9 @@
         "enter": {
           "align": {"value": "left"},
           "baseline": {"value": "top"},
-          "fontSize": {"value": 12},
-          "fill": {"value": "black"}
+          "fontSize": {"value": 11},
+          "fill": {"value": "black"},
+          "lineHeight":{"value": 15}
         },
         "update": {
           "x": {"value": 10},

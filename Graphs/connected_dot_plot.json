@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Employment by Occupation Category by Gender",
   "data": {"url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/a0038787b1a98fd7947d70c78a01d13cb950023b/Dataset/Employment_by_Occupation_Category_2010_2016.csv"},
   "transform": [
     {
@@ -17,7 +16,7 @@
     },
     {"filter": "datum.year==year"}
   ],
-  "width": 1000,
+  "width": 850,
   "height": 400,
   "encoding": {
     "x": {
@@ -85,12 +84,56 @@
             "direction": "horizontal",
             "orient":"bottom",
             "gradientLength": 140,
-            "padding": 50
+            "padding": 10
           }        
         },
         "size": {"value": 250},
         "opacity": {"value": 0.7}
       }
+    },
+    {
+      "transform": [
+        {"filter":"datum['gender'] == 'Male'"},
+        {"filter":"datum['Occupation_MASCO'] == 'Managerial'"},
+        {
+          "calculate": "'𝗚𝗲𝗻𝗲𝗿𝗮𝗹 𝘄𝗼𝗿𝗸𝗲𝗿𝘀, 𝗦𝗲𝗿𝘃𝗶𝗰𝗲/𝗦𝗮𝗹𝗲𝘀, 𝗮𝗻𝗱;𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 occupations are;dominated by the 𝗳𝗲𝗺𝗮𝗹𝗲 demographic'",
+          "as": "annotation_ori"
+        },
+        {
+            "calculate": "split(datum.annotation_ori,';')",
+            "as": "annotation"
+        }
+      ],
+      "encoding": {
+        "text": {
+          "field": "annotation",
+          "type": "nominal"
+        },
+        "size": {"value": 12}
+      },
+      "mark": {"type": "text", "dx":170, "dy": -75}
+    },
+    {
+      "transform": [
+        {"filter":"datum['gender'] == 'Male'"},
+        {"filter":"datum['Occupation_MASCO'] == 'Craft Workers'"},
+        {
+          "calculate": "'Over time the 𝗰𝗿𝗮𝗳𝘁 𝘄𝗼𝗿𝗸 occupation;became dominated by the 𝗺𝗮𝗹𝗲 𝗱𝗲𝗺𝗼𝗴𝗿𝗮𝗽𝗵𝗶𝗰;due to 𝘀𝗼𝗰𝗶𝗲𝘁𝗮𝗹 𝗲𝘅𝗽𝗲𝗰𝘁𝗮𝘁𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝘀𝘁𝗲𝗿𝗲𝗼𝘁𝘆𝗽𝗲𝘀; about gender roles shaping this demographic shift.'",
+          "as": "annotation_ori"
+        },
+        {
+            "calculate": "split(datum.annotation_ori,';')",
+            "as": "annotation"
+        }
+      ],
+      "encoding": {
+        "text": {
+          "field": "annotation",
+          "type": "nominal"
+        },
+        "size": {"value": 12}
+      },
+      "mark": {"type": "text", "dx":140, "dy": -10}
     }
   ],
   "params": [

@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Total Employers Contribution By Sector and State 2015 to 2017",
   "width": 500,
   "height": 500,
   "data": {

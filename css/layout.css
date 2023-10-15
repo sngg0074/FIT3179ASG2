@@ -3,7 +3,7 @@ body {
 }
 
 #specific-image {
-    width: 1300px;
+    width: 1100px;
     height: auto;
     border: px solid #333;
     margin: 10px;
@@ -14,31 +14,43 @@ body {
 
 
 .page {
-    width: 1300px;
+    width: 1100px;
     background-color: rgba(255, 255, 255, 0.957);
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
+
 .header h1{
     text-align: center;
     font-family: "Helvetica", Arial, sans-serif;
 }
 
 .header p{
-    text-align: justify;
-    font-size: 18px;
-    line-height: 1.6;
-    color: black;
+    font-size: 19px;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    word-spacing: 3px;
+    font-family: "Helvetica", Arial, sans-serif;
+
+}
+
+.p{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    word-spacing: 3px;
     font-family: "Helvetica", Arial, sans-serif;
 }
+
 
 .space {
     height: 10px;
 }
 
 .pure-u-7-8 p{
+    text-align: justify;
     padding-left: 20px;
     line-height: 30.6px;
     font-weight: bold;
@@ -55,10 +67,6 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
-#link p{
-    font-size: 14px;
-    color: #969696;
-}
 
 .pure-u-1-9 img{
     width: 80px;
@@ -66,95 +74,35 @@ body {
     place-items: center;    
 }
 
-.pure-u-1-1 p{
-    text-align: justify;
-    line-height: 26px;
-    color: #525252;
-}
-
-#map_title {
-    text-align: center;
-    font-size: small;
-}
-
-#bump_title{
-    text-align: center;
-    font-size: small;
-    padding-left: 40px;
-}
-
-#bump_chart{
-    padding-left: 40px;
-}
-
-#bar_title{
-    text-align: center;
-    font-size: small;
-}
-
-#box_plot{
-    padding-left: 40px;
-}
-
-#box_title{
-    text-align: center;
-    font-size: small;
-    padding-left: 40px;
-}
-
-#donut_title {
-    text-align: center;
-    font-size: small;
-}
-
-#donut_chart_concat{
-    padding-left: 60px;
-}
-
-#dot_plot_title {
-    text-align: center;
-    font-size: small;
-    padding-left: 80px;
-}
-
-#range_dot_plot{
-    padding-left: 80px;
-}
-
-#bubble_title {
-    text-align: center;
-    font-size: small;
-}
-
-#scatter_title {
-    text-align: center;
-    font-size: small;
-}
-
-#scatter_plot {
-    padding-left: 10px;
-}
-
-#small-font p{
-    text-align: right;
-    font-style: italic;
-    font-size: 14px;
-    color: #969696;
-}
 
 .section-break {
     border: 2px solid #1b5fff; /* Set the line thickness and color */
     margin: 20px 0; /* Add some space above and below the line */
 }
 
-#vis1 {
-    margin-left: auto;  /* Set left margin to "auto" */
-    margin-right: auto; /* Set right margin to "auto" */
-  }
-
-  .GraphParagrapgh{
+.graphParagraph{
     color: black;
     font-family: "Helvetica", Arial, sans-serif;
     font-size: 22px;
     word-spacing: 2px;
+}
+
+.boldParagraph {
+    font-weight: bold;
+    color: #0381c9;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 23px;
+    word-spacing: 2px;
+}
+
+.pure-u-1-1 p{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#end{
+    font-style: italic;
+    font-size: 14px;
+    color: #969696;
 }
