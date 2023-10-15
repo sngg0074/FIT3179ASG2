@@ -2,16 +2,15 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "view": {"stroke":"#ffffff"},
   "background":"#ffffff",
-
+  "width": 1000,
+  "height": 460,
+  "data": {
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
+    "format": {"type": "csv"}
+  },
 
     "layer": [
       {
-      "width": 1000,
-      "height": 460,
-      "data": {
-        "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/ac8cd508533425dcf2f0e1143dd57d360a518355/Dataset/unemployment_rate_2000_2020.csv",
-        "format": {"type": "csv"}
-      },
       "transform": [
         {
           "lookup": "state",
@@ -42,12 +41,20 @@
             "param": "select",
             "field": "unemployment_rate", 
             "type": "quantitative",
+            "legend": {
+              "title":"Unemployment Rate (Percentage)",
+              "titleFontSize": 12,
+              "titleLimit": 0,
+              "direction": "horizontal",
+              "orient":"bottom",
+              "gradientLength": 140,
+              "padding": 50
+            },
             "scale": {
             "type": "threshold",
             "domain": [2, 4, 6, 8],
             "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
-            },
-            "title":"Unemployment Rate (Percentage)"
+            }
           },
           "value": "grey"
         },
@@ -60,6 +67,7 @@
       },
         "tooltip": [
           {"field": "properties.Name", "type": "nominal", "title": "State"},
+          {"field": "year", "type": "ordinal", "title":"Year"},
           {"field": "unemployment_rate", "type": "quantitative", "title":"Unemployment Rate"}
         ]
       }

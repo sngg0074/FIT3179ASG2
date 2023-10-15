@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 700,
-  "height": 700,
+  "width": 800,
+  "height": 850,
   "padding": {"left": 5, "right": 5, "top": 20, "bottom": 40},
   "autosize": "none",
   "signals": [
@@ -24,8 +24,14 @@
           "labels": ["SME", "Large"],
           "name": "Company Size: "
       }
+  },
+  {
+    "name": "customAnnotation",
+    "update": "'Unlike 𝗦𝗲𝗹𝗮𝗻𝗴𝗼𝗿 which is the most developed state; and 𝗞𝘂𝗮𝗹𝗮 𝗟𝘂𝗺𝗽𝘂𝗿 being the capital city of; 𝗠𝗮𝗹𝗮𝘆𝘀𝗶𝗮, 𝗝𝗼𝗵𝗼𝗿 and 𝗣𝗲𝗻𝗮𝗻𝗴 consistently have the; 𝗹𝗮𝗿𝗴𝗲𝘀𝘁 𝗻𝘂𝗺𝗯𝗲𝗿 𝗼𝗳 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲𝘀 in both SME and; large enterprises due to the 𝗝𝗼𝗵𝗼𝗿\\'𝘀 𝘀𝗼𝘂𝘁𝗵𝗲𝗿𝗻 𝗯𝗼𝗿𝗱𝗲𝗿; which is adjacent to 𝗦𝗶𝗻𝗴𝗮𝗽𝗼𝗿𝗲 and 𝗣𝗲𝗻𝗮𝗻𝗴\\'𝘀 𝗽𝗼𝗿𝘁; 𝗯𝗲𝗶𝗻𝗴 𝗮𝗻 𝗶𝘀𝗹𝗮𝗻𝗱 𝘀𝘁𝗮𝘁𝗲 make these states important; trading hubs.'"
   }
+    
   ],
+
   "data": [
     {
       "name": "tbl",
@@ -627,7 +633,7 @@
     {
       "name": "size",
       "domain": {"data": "tbl", "field": "Total"},
-      "range": [300, 70000],
+      "range": [8000, 100000],
       "nice": true
     },
     {
@@ -641,7 +647,7 @@
     {
       "fill": "color",
       "title": "Total Employees Count",
-      "gradientLength": 200,
+      "gradientLength": 400,
       "gradientThickness": 20,
       "direction": "horizontal",
       "tickCount": 6,
@@ -694,11 +700,29 @@
         "enter": {
           "align": {"value": "center"},
           "baseline": {"value": "middle"},
-          "fontSize": {"value": 8},
+          "fontSize": {"value": 15},
           "fill": {"value": "white"},
           "text": {"field": "datum.State"}
         },
         "update": {"x": {"field": "x"}, "y": {"field": "y"}}
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "align": {"value": "left"},
+          "baseline": {"value": "top"},
+          "fontSize": {"value": 12},
+          "fill": {"value": "black"}
+        },
+        "update": {
+          "x": {"value": 10},
+          "y": {"value": 10},
+          "text": {
+            "signal": "split(customAnnotation, ';')"
+          }
+        }
       }
     }
   ]

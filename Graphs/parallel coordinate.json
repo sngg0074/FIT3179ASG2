@@ -1,31 +1,22 @@
-
-
 {
   "data": {
-    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/47c5bb74ffdbe3a5ce29b94d04801a8596ab1181/Dataset/Skills_needed_by_Job_Category_2016.json"
+    "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/main/Dataset/Skills_needed_by_Job_Category_2016.json"
   },
-  "width": 600,
+  "width": 1000,
   "height": 300,
   "transform": [
     {"window": [{"op": "count", "as": "index"}]},
-    {"fold": [
-      "Ability to work independently",
-      "Communication skills",
-      "Creative/critical thinking",
-      "Numeracy",
-      "Problem-solving skills",
-      "Team work"
-    ]},
+    {"fold": ["Ability to work independently","Communication skills","Creative/critical thinking","Numeracy","Problem-solving skills","Team work"]},
     {
       "window": [
-        {"op": "min", "field": "Value", "as": "min"},
-        {"op": "max", "field": "Value", "as": "max"}
+        {"op": "min", "field": "value", "as": "min"},
+        {"op": "max", "field": "value", "as": "max"}
       ],
       "frame": [null, null],
       "groupby": ["key"]
     },
     {
-      "calculate": "(datum.Value - datum.min) / (datum.max-datum.min)",
+      "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
       "as": "norm_val"
     },
     {
@@ -39,76 +30,139 @@
       "detail": {"aggregate": "count", "type": "quantitative"},
       "x": {"type": "nominal", "field": "key"}
     }
-  }, {
+  }, 
+  
+  {
     "mark": "line",
     "encoding": {
-      "color": {"type": "nominal", "field": "Category"},
+      "color": {"type": "nominal", "field": "Job Category", "legend": {"titleFontSize": 14, "labelFontSize": 12,"symbolStrokeWidth":15, "labelLimit":0}},
       "detail": {"type": "nominal", "field": "index"},
-      "opacity": {"value": 0.3},
-      "x": {"type": "nominal", "field": "Skills"},
+      "opacity": {"value": 1},
+      "x": {"type": "nominal", "field": "key", "title":"Skills Needed", "axis":  {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "titleFontSize":15,
+        "labelFontSize": 14
+      }},
       "y": {"type": "quantitative", "field": "norm_val", "axis": null},
-      "tooltip": [{
-        "field": "Ability to work independently"
-      }, {
-        "field":  "Communication skills"
-      }, {
-        "field": "Creative/critical thinking"
-      }, {
-        "field": "Numeracy"
-      }, {
-        "field": "Problem-solving skills"
-      },{
-        "field": "Team work"
-      }    
-    ]
+      "tooltip": [
+        {
+          "field": "Job Category",
+          "title": "Job Category"        
+        },
+        {
+          "field": "Ability to work independently",
+          "title": "Ability to work independently"
+        },
+        {
+          "field": "Communication skills",
+          "title": "Communication skills"
+        },
+        {
+          "field": "Creative/critical thinking",
+          "title": "Creative/critical thinking"
+        },
+        {
+          "field": "Numeracy",
+          "title": "Numeracy"
+        },
+        {
+          "field": "Problem-solving skills",
+          "title": "Problem-solving skills"
+        },
+        {
+          "field": "Team work",
+          "title": "Team work"
+        }
+      ],
+      "strokeWidth": {"value": 4}
     }
-  },{
+  },
+
+  {
     "encoding": {
       "x": {"type": "nominal", "field": "key"}, 
       "y": {"value": 0}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
+      "mark": {"type": "text", "style": "label", "fontSize": 12},
       "encoding": {
         "text": {"aggregate": "max", "field": "max", "type": "quantitative"}
       }
     }, {
       "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
     }]
-  },{
-
+  },
+  
+  {
     "encoding": {
       "x": {"type": "nominal", "field": "key"}, 
       "y": {"value": 150}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
+      "mark": {"type": "text", "style": "label", "fontSize": 12},
       "encoding": {
         "text": {"aggregate": "min", "field": "mid", "type": "quantitative"}
       }
     }, {
       "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
     }]
-  },{
+  },
+  
+  {
     "encoding": {
       "x": {"type": "nominal", "field": "key"}, 
       "y": {"value": 300}
     },
     "layer": [{
-      "mark": {"type": "text", "style": "label"},
+      "mark": {"type": "text", "style": "label", "fontSize": 12},
       "encoding": {
         "text": {"aggregate": "min", "field": "min", "type": "quantitative"}
       }
     }, {
       "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
     }]
-  }],
+  },
+
+  {
+    "transform": [
+      {"filter":"datum['Job Category'] == 'Managers'"},
+      {
+        "calculate": "'Professional careers require more creative;and critical thinking skills than service;and sales workers as it is a more;specialised career choice.'",
+        "as": "annotation_ori"
+      },
+      {
+          "calculate": "split(datum.annotation_ori,';')",
+          "as": "annotation"
+      }
+    ],
+    "encoding": {
+      "text": {
+        "field": "annotation",
+        "type": "nominal",
+        "fontSize": 12,
+        "fontWeight": "normal",  
+        "lineBreak": "; " 
+      },
+      "size": {"value": 12}
+    },
+    "mark": {"type": "text", "dx": -75, "dy": -100}
+  }
+],
+  
   "config": {
-    "axisX": {"domain": false, "labelAngle": 0, "tickColor": "#ccc", "title": false},
+    "axisX": {"domain": false, "labelAngle": 0, "tickColor": "#ccc", "title": false, "labelFontSize": 14 },
     "view": {"stroke": null},
     "style": {
       "label": {"baseline": "middle", "align": "right", "dx": -5, "tooltip": null},
       "tick": {"orient": "horizontal", "tooltip": null}
+    },
+    "legend": {
+      "orient": "left",  
+      "labelLimit": 0,
+      "labelFontSize":12  
     }
   }
 }

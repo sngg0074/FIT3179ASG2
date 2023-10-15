@@ -1,38 +1,130 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Total Employers Contribution By Sector and State 2015 to 2017",
-  "width": 1000,
+  "width": 500,
   "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/sngg0074/FIT3179ASG2/97cc8f00c43a81edb22b0094efd9a69ef8a194ec/Dataset/Total_Employers_Contribution_By_Sector_and_State_2015_2017.csv"
-  },
-  
-  "mark": "bar",
-  "encoding": {
-    "x": {"field": "State", "type": "ordinal"},
-    "y": {"field": "Total", "type": "quantitative","scale": {"domain": [0, 7500]}},
-    "color": {
-      "field": "Sector",
-      "type": "nominal",
-      "scale": {
-          "domain": ["Construction","Information and communication","Manufacturing","Professional, scientific and technical","Wholesale and retail trade"],
-          "range": [ "#999999", "#e69f00", "#56b4e9","#009e73","#f0e442"]
-      },
-      "title": "Sectors",
-      "legend":{
-          "orient": "top-left",
-          "padding": 5,
-          "rowPadding": 8,
-          "titleFontSize": 14,
-          "labelFontSize": 12
-      }
-    }
   },
   "transform": [
     {"filter": "datum.Year==year_slider"},
     {"stack": "Total", "groupby": ["State"]},
     {"filter": "sector_selection == null || datum.Sector == sector_selection"}
   ],
+
+  "encoding": {
+    "x": {
+        "field": "State",
+        "type": "ordinal",
+        "title": "States",
+        "axis":{
+            "titleFontSize": 14,
+            "titlePadding": 20,
+            "labelFontSize": 12,
+            "labelAngle": -15,
+            "labelAlign":"center",
+            "labelPadding": 50
+        }
+    },
+    "y": {
+        "field": "Total",
+        "aggregate": "sum",
+        "type": "quantitative",
+        "axis":{
+            "titleFontSize": 14,
+            "titlePadding": 20,
+            "labelFontSize": 12,
+            "grid": false,
+            "labelLimit":0
+        }
+    }  
+},
+
+
+
+  "layer":[{
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "State", "type": "ordinal","axis":  {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "titleFontSize":15,
+        "labelAngle": 80, 
+        "labelFontSize": 12
+      }},
+      "y": {"field": "Total", "type": "quantitative","scale": {"domain": [0, 7500]}, "axis":  {
+        "title":"Total Employers",
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "titleFontSize":15,
+        "labelFontSize": 12
+      }},
+      "color": {
+        "field": "Sector",
+        "type": "nominal",
+        "scale": {
+            "domain": ["Construction","Information and communication","Manufacturing","Professional, scientific and technical","Wholesale and retail trade"],
+            "range": [ "#999999", "#e69f00", "#56b4e9","#009e73","#f0e442"]
+        },
+        "title": "Sectors",
+        "legend":{
+            "orient": "top-left",
+            "padding": 5,
+            "rowPadding": 8,
+            "titleFontSize": 14,
+            "labelFontSize": 12,
+            "labelLimit": 0
+        }
+      },
+      "tooltip":[
+        {"field":"State", "type": "ordinal","title":"State"},
+        {"field":"Sector", "type": "nominal","title":"Sector"},
+        {"field":"Total", "type": "quantitative","title":"Total Employers", "format":".0f"}
+    ]
+    }
+  },
+  {
+    "mark":{
+        "type": "text",
+        "align":"center",
+        "baseline":"bottom",
+        "color":"grey",
+        "size":11
+      },
+      "encoding": {
+          "text":{
+              "field":"Total",
+              "aggregate": "sum",
+              "type": "quantitative",
+              "format":".0f"
+          }
+      }
+  },
+  {
+    "transform": [
+      {"filter":"datum.State == 'Selangor'"},
+      {"filter":"datum.Sector == 'Manufacturing'"},
+      {
+        "calculate": "'𝗞𝘂𝗮𝗹𝗮 𝗟𝘂𝗺𝗽𝘂𝗿 shows steady increase overall all sectors; 𝗺𝗼𝘀𝘁𝗹𝘆 𝗰𝗲𝗻𝘁𝗲𝗿𝗲𝗱 𝗮𝗿𝗼𝘂𝗻𝗱 𝗺𝗮𝗻𝘂𝗳𝗮𝗰𝘁𝘂𝗿𝗶𝗻𝗴 due to market demand; due to gradual increase in 𝗳𝗼𝗿𝗲𝗶𝗴𝗻 𝗹𝗮𝗯𝗼𝘂𝗿 𝗾𝘂𝗼𝘁𝗮𝘀.'",
+        "as": "annotation_ori"
+      },
+      {
+          "calculate": "split(datum.annotation_ori,';')",
+          "as": "annotation"
+      }
+    ],
+    "encoding": {
+      "text": {"field": "annotation"},
+      "size": {"value": 12}
+    },
+    "mark": {"type": "text", "dx": -200, "dy": 15}
+  }
+
+],
   "params": [
     {
       "name": "year_slider",
@@ -69,8 +161,7 @@
           "name": "Sector Selection: "
       }
     }
-  ],
-  "config": {"view": {"stroke": "transparent"}}
+  ]
 }
 
 

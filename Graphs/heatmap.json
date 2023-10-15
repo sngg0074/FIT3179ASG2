@@ -5,10 +5,40 @@
   "width": 1000,
   "height": 400,
   "encoding": {
-    "y": {"field": "Employment_Status", "type": "nominal"},
-    "x": {"field": "NEC_Description", "type": "nominal"},
-    "color": {"aggregate": "sum","field": "Total"}
-    
+    "y": {
+      "field": "Employment_Status", 
+      "type": "nominal", 
+      "title": "Employment Status", "axis":  {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "titleFontSize":15,
+        "labelFontSize": 12
+      }
+    },
+    "x": {
+      "field": "NEC_Description", 
+      "title": "Field of Study", 
+      "type": "nominal", 
+      "axis":  {
+        "offset": 5,
+        "ticks": false,
+        "minExtent": 70,
+        "domain": false,
+        "titleFontSize":15,
+        "labelAngle": 45, 
+        "labelFontSize": 12,
+        "labelLimit": 0
+      }
+      
+      },
+
+    "tooltip":[
+      {"field": "Employment_Status", "type": "nominal", "title": "Employment Status"},
+      {"field": "NEC_Description", "type": "nominal", "title": "Field of Study"},
+      {"field": "Total", "type": "quantitative", "title": "Total Individuals"}
+    ]
   },
   "transform":[
     {"filter": "datum.year==year_slider"}],
@@ -41,6 +71,45 @@
               "SME"
           ],
           "name": "Category Selection: "
+      }
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {"color": {"field": "Total","legend": {
+        "title":"Total Individuals",
+        "titleFontSize": 15,
+        "labelFontSize":12,
+        "titleLimit": 0,
+        "direction": "horizontal",
+        "orient":"bottom",
+        "gradientLength": 350,
+        "padding": 0
+      },
+      "scale": {
+        "type": "threshold",
+        "domain": [10000, 20000, 30000, 40000],
+        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#7f270e"]
+        }
+      }}
+
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "color": "black",
+        "align": "center",
+        "baseline": "middle"
+      },
+      "encoding": {
+        "text": {
+          "field": "Total",
+          "type": "quantitative",
+          "format": ".0f"
+        }
       }
     }
   ]
