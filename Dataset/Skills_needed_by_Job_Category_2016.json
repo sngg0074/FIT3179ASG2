@@ -1,0 +1,83 @@
+[
+    {
+      "Job Category": "Managers",
+      "Numeracy": 59.1,
+      "Communication skills": 65.2,
+      "Creative/critical thinking": 60.7,
+      "Problem-solving skills": 65.8,
+      "Ability to work independently": 64.7,
+      "Team work": 63.1
+    },
+    {
+      "Job Category": "Professionals",
+      "Numeracy": 25.6,
+      "Communication skills": 28.8,
+      "Creative/critical thinking": 27.8,
+      "Problem-solving skills": 29,
+      "Ability to work independently": 29.1,
+      "Team work": 28.7
+    },
+    {
+      "Job Category": "Technicians & Associate Professionals",
+      "Numeracy": 15.3,
+      "Communication skills": 18.1,
+      "Creative/critical thinking": 16.6,
+      "Problem-solving skills": 20.5,
+      "Ability to work independently": 20.8,
+      "Team work": 21.1
+    },
+    {
+      "Job Category": "Clerical Support Workers",
+      "Numeracy": 44.6,
+      "Communication skills": 50,
+      "Creative/critical thinking": 32.1,
+      "Problem-solving skills": 42.4,
+      "Ability to work independently": 52.8,
+      "Team work": 52.1
+    },
+    {
+      "Job Category": "Service and Sales Workers",
+      "Numeracy": 28.2,
+      "Communication skills": 38.6,
+      "Creative/critical thinking": 24.2,
+      "Problem-solving skills": 30.6,
+      "Ability to work independently": 35.6,
+      "Team work": 36.8
+    },
+    {
+      "Job Category": "Agricultural",
+      "Numeracy": 3.4,
+      "Communication skills": 4.3,
+      "Creative/critical thinking": 3.8,
+      "Problem-solving skills": 4.6,
+      "Ability to work independently": 5.7,
+      "Team work": 6.3
+    },
+    {
+      "Job Category": "Craft & Related Trades Workers",
+      "Numeracy": 7.2,
+      "Communication skills": 9.2,
+      "Creative/critical thinking": 8.4,
+      "Problem-solving skills": 10.9,
+      "Ability to work independently": 12.6,
+      "Team work": 13.1
+    },
+    {
+      "Job Category": "Machine Operators",
+      "Numeracy": 7.5,
+      "Communication skills": 9.9,
+      "Creative/critical thinking": 7.3,
+      "Problem-solving skills": 11.1,
+      "Ability to work independently": 14.6,
+      "Team work": 15.6
+    },
+    {
+      "Job Category": "Elementary Occupations",
+      "Numeracy": 14.4,
+      "Communication skills": 20.6,
+      "Creative/critical thinking": 10.8,
+      "Problem-solving skills": 15.6,
+      "Ability to work independently": 25.9,
+      "Team work": 29.1
+    }
+  ]
