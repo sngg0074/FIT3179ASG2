@@ -53,9 +53,9 @@ body {
     text-align: justify;
     padding-left: 20px;
     line-height: 30.6px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 32px;
-    color: #012169;
+    color: #4e7be5;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .graphParagraph{
-    color: black;
+    color: rgb(81, 75, 75);
     font-family: "Helvetica", Arial, sans-serif;
     font-size: 22px;
     word-spacing: 2px;
@@ -94,6 +94,15 @@ body {
     font-size: 23px;
     word-spacing: 2px;
 }
+
+.boldTitleParagraph{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 35px;
+    color: #012169;
+    font-family:'Times New Roman', Times, serif;
+}
+
 
 .pure-u-1-1 p{
     text-align: center;
