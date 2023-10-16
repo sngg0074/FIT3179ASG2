@@ -38,7 +38,7 @@
       "color": {"type": "nominal", "field": "Job Category", "legend": {"titleFontSize": 14, "labelFontSize": 12,"symbolStrokeWidth":15, "labelLimit":0}},
       "detail": {"type": "nominal", "field": "index"},
       "opacity": {"value": 1},
-      "x": {"type": "nominal", "field": "key", "title":"Skills Needed", "axis":  {
+      "x": {"type": "nominal", "field": "key", "title":"Percentage agree importance of skill", "axis":  {
         "offset": 5,
         "ticks": false,
         "minExtent": 70,
